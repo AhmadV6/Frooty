@@ -1,3 +1,524 @@
--- This file was protected using AntiLua Obfuscator v7.0 [https://obf.antilua.xyz/]
+--// GHEMS HUB - PINK LOADING SCREEN + ACCESS PANEL
 
-return({[0X5dA]=function(x,W,r,c,E)local ad=x[0X7_81];if not ad then local QN=x[0X6d9](0B1_011_0_11,0x98);ad=function(x,W,r,c,E)if(((20*0B11110+16)%186~=0X3E))then local XU=0B1_1000;local Ug,Vm;local N=0X18;local j=0b11010_01;repeat if((XU+j)==(N+j))then Ug=x[0X6D9](x[0b1101_00_1_0](Vm or 0b11_0_0001,2),0xF_Ff_F);XU=129;continue;elseif((XU-j)==N)then Vm=x[0B1_0_0_1_1_1000](Ug or 0B1_010110_0000000_00,0X1);break;else break;end;until false;if x[0B1_0011_01](Ug,Vm)~=326 then return end;local sD=0x1_9;repeat if sD==0X19 then E=x[0b1110_1_1_1_0_11](x,W);B=x[167](x);r={(x)[0B1_11_001_0_1100](x[0X46_6])};sD=0X9a;elseif sD==0b100_110_10 then R={};R[x[0X4_18](x,0x18,0B11000_1_0,0B1_0_1_0110)]=E;R[x[0b1_000_0011_00_0](x,24,127,117)]=B;R[x[0b1_0_000011000](x,0X18,0X71,91)]=r;break;else break;end;until false;return R;else return 24;end;end;(x)[0X7_81]=ad;else local QN=x[0x4D](91,0x98);end;return ad(x,W,r,c,E);end,[0B110_10010111]=function(x,E)local He=x[0X1_2f];if not He then local Jd=x[0B1_10_1_101_10_0_1](0x4_D,0B11111_01);He=function(x,E)local jD=x[951](((0B1_0111_111_10010_0)-54-0x3_8));local TU=0B0;local ma=0B1111111_11_11111111111111_1_1_1_11111_1;local tk=0x0;local rY=0x0;local wH,JZ,uX,Do=0x0,0b0,0B0,0b0;local vI=0b0;local LD,Vi,rE,wg,Cy,sU={},{},{},{},{},{};local OD={{},{},{},{}};local Hb,nE,SG={},{},{};local UC={{},{},{},{}};local VW={{},{},{},{}};local yw=((0xE)-(0B1110));local ak=0x200_00_0;local uv=function(x)return x[1_668](x,E)end;local Kz=function(x,Ee,jy)jy=jy+0b1;local YG=Ee[jy]or 0b1_00_00_00_000_0;local oh=x[0B100_11100_0](ma,0B10_11)*YG;if tk<oh then ma=oh;Ee[jy]=YG+(x)[0b1_00_111000](0b1_00_000_00_0_0_00-YG,5);if ma<((0x1000_0_42)-0b11_0110-12)then tk=x[1_896](x[0Xd2](tk,((0b101_100)-(36))),uv(x));ma=x[0xD_2](ma,((0X2_C)-(0B10_01_00)));end;return 0;end;ma=ma-oh;tk=tk-oh;Ee[jy]=YG-x[0X1_3_8](YG,0B101);if ma<((0B10_000_0_0000_0_0_0_00_000100_0010)-0b11_0_1_10-0xC)then tk=(x)[0x768](x[210](tk,((0b1_011_00)-(0B100_100))),uv(x));ma=(x)[0B1_10_10010](ma,((0x2C)-(0x24)));end;return 0B1;end;local bd=function(x,dl)local XO=0;for kW=1,dl do ma=x[312](ma,0X1);XO=XO*0x2;if tk>=ma then tk=tk-ma;XO=XO+0B1;end;if ma<((16_777_282)-0B110_110-12)then tk=x[0X7_68]((x)[0b11_0_10_0_1_0](tk,((0B1_01_1_00)-(0B100_1_0_0))),uv(x));ma=x[0xd2](ma,((0B101100)-(0x2_4)));end;end;return XO;end;local JP=function(x,Ee,dl)local SC=0x1;for kW=0x1,dl do SC=SC*0X2+Kz(x,Ee,SC);end;return SC-0B1_0^dl;end;local OQ=function(x,Ee,jy,dl)local SC,ct,Eb=0X1,0b0,0B0_01;for kW=0B1,dl do local mi=Kz(x,Ee,jy+SC);SC=SC*0x2+mi;ct=ct+mi*Eb;Eb=Eb*0x2;end;return ct;end;local de=function(x,kB,SH)local fH,CE,aI,RQ=kB[1],kB[2],kB[((71)-48-0b10_1_00)],kB[0B10_0];if Kz(x,fH,0b0)==0 then return JP(x,CE[SH+1],((71)-0b1_1_0000-0X14));end;if Kz(x,fH,0B0_01)==0x0 then return((0B1011_00)-(36))+JP(x,aI[SH+0X1],((0X47)-0x3_0-0X14));end;return 0X1_0+JP(x,RQ,((0X2_C)-(36)));end;local yQ=function(x,Ts)local Ae=TU-Ts-0X1;if Ae<0X0 then return nil end;return(x)[0X11d](jD,Ae);end;local hL=function(x,bJ)if TU>=((0X2FE4)-0B1_10110-56)then return false end;(x)[0X2_0_1](jD,TU,bJ);TU=TU+1;return true;end;local QG=function(x,Ts,kG)for Tz=0x1,kG do local bJ=yQ(x,Ts);if bJ==nil or not hL(x,bJ)then return false end;end;return true;end;local sc=function(x,qm)local Uy=x[0xD2](x[0B1_1_01_101_100_1](TU,yw),0b1_00)+x[0b1_001_11_0_00](vI,4);local Ee=SG[Uy+0b1];if not Ee then Ee={};SG[Uy+0B1]=Ee;end;local ct=0B0_01;if rY<((-0x1_E)+(0X2_5))then repeat ct=ct*0x2+Kz(x,Ee,ct);until ct>=0b10_0_0000_00;return ct-0B10_00_00_0_00;end;repeat local XP=x[1_753](x[0x13_8](qm,((-0X1_e)+(0x25))),0B0_01);qm=x[0b11_0_11011_001]((x)[0xD2](qm,0x1),0B11111_111);local bm=Kz(x,Ee,(0B0_01+XP)*0X10_0+ct);ct=ct*0X2+bm;if XP~=bm then while ct<0X1_00 do ct=ct*0X2+Kz(x,Ee,ct);end;break;end;until ct>=0X100;return ct-0B10_00_0_00_00;end;for Ok=1,0B0_01 do UC[0b10][Ok]={};UC[((0b1_000111)-48-0x14)][Ok]={};VW[2][Ok]={};VW[((71)-0B1_1_00_00-0X14)][Ok]={};end;for Ok=0X1,5 do tk=x[0B111_01_10_10_0_0](x[0b1_10_10010](tk,((0B1_01100)-(0b10_01_00))),uv(x));end;while TU<((0B1011111110_0100)-0X36-56)do local SH=x[0b110_1_10_110_0_1](TU,((-0X3_C)+(0B11_1100)));if Kz(x,LD,rY*0b10000+SH)==0x0 then local qm=0b0;if rY>=((-0B11110)+(0b1001_01))then qm=yQ(x,wH);if qm==nil then return nil end;end;vI=sc(x,qm);if not hL(x,vI)then return nil end;if rY<4 then rY=0;elseif rY<10 then rY=rY-((0b1000_111)-0x30-0X14);else rY=rY-((38)-(0b1_0_00_00));end;else local kG,Ts=0x0,0B0;if Kz(x,Vi,rY)~=0x0 then if Kz(x,rE,rY)==0b0 then if Kz(x,sU,rY*16+SH)==0b0 then rY=(rY<((-0x1E)+(0B1_00_101)))and 0x9 or 0xb;kG=0B0_01;end;else if Kz(x,wg,rY)==0b0 then Ts=JZ;else if Kz(x,Cy,rY)==0x0 then Ts=uX;else Ts=Do;Do=uX;end;uX=JZ;end;JZ=wH;wH=Ts;end;if kG==0B0 then kG=de(x,VW,SH)+2;rY=(rY<((-0x1E)+(0B100101)))and((44)-(0x2_4))or 0Xb;end;else Do=uX;uX=JZ;JZ=wH;kG=de(x,UC,SH)+2;rY=(rY<((-0X1E)+(0X25)))and((-0B11110)+(0b1_0_010_1))or 0B10_1_0;local Ag=kG-0X2;if Ag>((0B100_011_1)-0b11_00_0_0-0X14)then Ag=((0B1_0_001_1_1)-0B1100_0_0-0b1_010_0);end;Es=JP(x,OD[Ag+0X1],6);if Es>=0X4 then HF=x[0B100_11_100_0](Es,0B0_01)-0B0_01;wH=(0x2+x[0B1_1_0110_1_10_01](Es,0B1))*0x2^HF;if Es<0b1_110 then wH=wH+OQ(x,Hb,wH-Es-0B1,HF);else wH=wH+bd(x,HF-0b100)*0B10_000+OQ(x,nE,0b0,0b100);end;else wH=Es;end;end;if wH>=TU or wH>=ak or TU+kG>((0x2_fE_4)-0b1101_1_0-0b111_000)then return nil end;if not QG(x,wH,kG)then return nil end;vI=yQ(x,0b0);end;end;E.Py=jD;E.AM=0B0_01;E.Zg=true;E.jj=({})[0B1_00_01_101100_00_0_1_010_0_0_0_0_0];return E;end;x[303]=He;else local Jd=x[0B1_0_0_1_101](0b100_110_1,0B1111_101);end;return He(x,E);end,[0B1_10_11_000_11]=function()return{[((0X5_f)-0x3D-26)]=0b10_1_0}end,[0x24_2]=function(x,fw)if fw[55]then return fw end;local bi=fw[0b1_0_101];if not bi then fw[0B1_101_11]=true;return fw end;local Yw=x[0X4_D](bi[7],((5_696)+(0X22)));local td=(bi[0x5]or(Yw+0xD41))-Yw-((3_390)+(0B1_1));local uA=x[0B1_10110_11_001](Yw+(bi[0b11]or 0b0)*0X37+(bi[2]or 0x0)*((0b11_1_10_00_1)-(0B10_010))+td*0XE+((0X9BF9)-0x3_e-63),((0XfFd1)+(46)));fw[0X82]=uA;local HY={};HY[x[0X418](x,0B1_1_00_0,0B1000111,0X4_7,0x71,0b1110110,0x7c,0B1111_101,0X6_0)]=function(hK,Ai)local bi=hK[0b1_0101];if not bi then return nil end;local Yw=x[77](bi[((56)-(49))],0X1662);local td=(bi[0B101]or(Yw+((0xd5F)-(0B1_1110))))-Yw-((0xd6_b)-0B101_0_1-0x1_5);local Xe=bi[((62)-10-0b1_011_10)];if Ai==1 then pI=bi[0b1_1]-Yw-0X7_F9D;hK[Ai]=pI;return pI;elseif Ai==0x2 then pI=bi[0x2]-Yw-((0B1000_0_10_010_111_11)-(0x38));if Xe and x[0x5_91](x,td,0B0_01,0b1)==0x1 then pI=x[0x640](x,Xe,pI);end;hK[Ai]=pI;return pI;elseif Ai==0x3 then Vn=bi[((0X6_0)-0b1_11000-36)];if not Vn then return nil end;pI=Vn-Yw-50_331;if Xe and x[0x5_9_1](x,td,0X2,0b1_0)==0X1 then pI=x[0b1100100_0_00_0](x,Xe,pI);end;hK[Ai]=pI;return pI;elseif Ai==0b100 then YI=bi[0B0_01];if not YI then return nil end;pI=YI-Yw-((0x10c7)-(0b10110_1));if Xe and x[0B1_011_00_10_00_1](x,td,0b1_1,0B11)==0B0_01 then pI=x[0x64_0](x,Xe,pI);end;hK[Ai]=pI;return pI;end;return nil;end;x[0X7A6](fw,HY);fw[((0b110)+(0B11_0001))]=true;return fw;end,[0b100_1_1011_1_0]=0b1000_110,[0b1_1001_011101]=93,[0x45_C]=function(x,c,u,A,r)return(x)[0X536]()['\103e\x74\u{006d}\101t\x61\u{0074}\097b\x6c\u{0065}'](c)end,[0b1_0000001110]=string.char,[0X72c]=unpack,[0B1001000]=function(x,Hh)return{[x[0x418](x,0x1_8,0x47,71,0X7_1,118,0B1111_100,0x7d,0x60)]=Hh}end,[0x31]={0x28},[0b100_1_0_0_11_1_0_1]=table.insert,[944]=function(x,r,R,A,c)if(((0b11_1_10*0B1100_0+4)%0b1_01_1000~=0B1_0_1_0_11))then local IO,bk;local Y=0b110_1_0;local T=0X65;for G=0x1,1 do if not((Y+T)==127)then else IO=(x)[0X6D9](bk or 0xB_f,0xE32_a);bk=(x)[0X4D](IO or 0B11_1000_1100_101_010,0b10111_11_1);end;end;if x[0B1_0_0110_1](IO,bk)~=0b1011_1_111 then return end;return{x[0X72C]((x)[1_126])};else return 0b1_101_0;end;end,[0X5_6E]=false,[1_125]=function()return{[0B110]=0B10_0_0}end,[0b100_011101_01]={0b1101_11_0110001110_000_1_0_110,0X3_42A,3_902,0x1E_3b_74,0X5CB9,0B1,15_578_989,0x4C,0b100_1_0_0_100_001100_001101_1_1,0b11_11_0,0b1_1_0_1_001,0B1_010100100111011100_01_0_0,0b100000,0b11011011101_01_00_11_100_001,0b1_1,0X2_4_6d_1E,0Xa_43,0xb6_dC_42,12_036_359,0X7_1E_e_84,0xb6d_C4_2,0x8A_8F,0b1110110_101_110_010_1_1_01_1011,0Xa_43,0x6},[580]=function(x,wN,wN,Dw,LC)local XY=x[0b111_01_1_11](wN)or 0B111000110_00011_00;local dF=x[0xef](wN)or 0b1111011_100111000;local lQ=(x)[0xe_F](Dw)or 44_960;local fl=x[0b1_1_101_111](LC)or 30_112;if(((7*43)%0B100_1_00_1_1>0B10))then local yt,og,oO;local tr=({})[0X104894];if not(XY>0x20_D_9)then yt=0X4c;if x[0b1_1_0_110_110_01](XY or 0b1_01_000,0xde)~=0x34 then return-0X3,yt,(x[0X6_7B](x,XY,dF));end;else if not(XY<0B11_0_100)then else(x)[0B11_0011110_11](x,XY,dF,lQ);return 0X1_1_26,yt;end;local EQ=0X2f;repeat if EQ==0x2F then UJ=(x)[1_753](XY or 0B1_0_01_0_01,0b11_1_1_10_01_00110101);EQ=0X49;continue;else oO=(x)[0B10_01101](UJ or 0B111001_1,0b110101_0);break;end;until false;yt=0B1_0_01_10111;end;return nil,yt else return 51 end;end,[0x51_b]=function(x)return(x[0xD7](x)..x[0b1_0_0110_1101](x)..x[0b1_00_0011_00_1](x)..x[0x46F](x)..x[0X262](x));end,[0X366]=function(x,u,r,R,E)local Hf=0x27;local ya,rR;local v=0x27;local X=0B1000_0111;repeat if((Hf+X)==(v+X))then ya=(x)[0b1_1011_0_110_01](x[0XD_2](rR or 0x87,0x2),65_535);Hf=0XAE;continue;elseif((Hf-X)==v)then rR=x[0B1_00111000](ya or 0b1101100_01_0_0_11_1,0x1);break;else break;end;until false;if x[0b10_01_1_01](ya,rR)~=0B11_0_00_10010 then return end;u=(x)[1_571](x,u);local qQ,oA,Sg=x[0x1_7a],x[0b1100_0101100],x[0b100_10_01001_1];local GV=x[0b11101_00010];if not GV then local FG=x[398]({x[0x41_8](x,x[0x7_7c],x[0X7_2C]((x)[0b1_00001001_0_0]))},"");GV={};for yF=0B0_01,#FG do GV[Sg(FG,yF,yF)]=yF-1 end;x[0X3_a_2]=GV;end;local lv=GV[Sg(u,0X8,0B1_000)];local Ao=((#u-0b100_1+0B0_01)/0B101)*0X4;local Dl=x[0B1110110111](Ao);local kQ=0x0;local yC=0b0;for yF=0b1001,#u,0B101 do local bC,Ak,Pp,yW,Gm=Sg(u,yF,yF+4);local pl=((GV[bC]-(yC*qQ)%0x55+0X55*0xc_8)%0B1_01010_1)*((2^0B11)%0X35~=0XA and(0B11_00_0_111001_0_0_00_100_1011_11_0_0-0b1011)or(0b101000000_11_00_0_10_11110111_0_1+10_156_269))+((GV[Ak]-((yC+0x1)*qQ)%0b10_1_0_10_1+0x5_5*0xC8)%0X5_5)*((0Xb^0b100)%0B1_00011~=0Xc and(0X9_5f_00-19)or(614_234-0X2_8))+((GV[Pp]-((yC+2)*qQ)%0X5_5+0X5_5*200)%0X55)*((0b1101*0b1_00_101)%0B1111_1_01~=0B1_10_10_11 and(0B10001_1_11_01_0_0+0x1345)or(2_465+0X12Ca))+((GV[yW]-((yC+3)*qQ)%0X5_5+0b10101_01*0B11001_0_0_0)%0b10_1_01_0_1)*((0B10_1_0_1<42 and 0xC_af7~=0XCb2_5)and(0x61-12)or(0b1_01110+0X66))+((GV[Gm]-((yC+4)*qQ)%0B1_0101_01+0x55*0b1_1_0_01000)%0X55);x[110](Dl,kQ,pl);kQ=kQ+4;yC=yC+5;end;return Dl,kQ-lv end,[0B110001101_11]={[517]=0B1_010_010_1,[566]=0xa_5,[0x25_2]=((89)+(0b10_10_11)),[0b10_01110_0_10]=0x9f},[0b11_1011_0_100_0]=bit32.bor,[1_985]=function()return{[((-0X1C)+(35))]=((-33)+(0x2a))}end,[1_749]=0b1_0_10111,[0B1_1_00_110_1_100]=buffer.readf64,[0b110001_110]=table.concat,[0x67_5]=function(x,W,B,E,R)local Zs=x[1_501];if not Zs then local EX=x[0B1_10110_1_1001](22,0X3d);Zs=function(x,W,B,E,R)if(((0B10_01*30+0b11)%0b1010001_0~=126))then local py,uS,Wj,Yb,VU,cp;py,Wj,uS=x[771](x,Wj,38,uS,Wj);py,Wj,Yb=x[441](x,Wj,py,Yb);VU,py,cp=(x)[0x25_E](x,py,Yb,230);Wj=nil;VU,cp=x[0b10_1_011011](x,x[0X40_1],py,cp);if VU~=-2 then else return x[0Xfe](x,Yb);end;local Pb=0X3_0;local za,FO;local db=0X30;local to=0X5E;repeat if((Pb+to)==(db+to))then za=x[0X768](FO or 16,0B101_11_1_01100_1100_0);Pb=0x8_e;continue;elseif((Pb-to)==db)then FO=(x)[1_753](za or 0XBd9_8,0B1_000_0);break;else break;end;until false;if x[0x4d](za,FO)~=0B10_11_11_01_10_00100_0 then return end;repeat if py==0x26 then Qj=x[0B11_0_110_11_001](Em or 0b1_1_10_011_0,0x4_68_2);cH=x[0B1_10110_1_10_0_1](uS or 23_855,2_085);za=x;py=0x7D;continue;elseif py==125 then Em=x[0x4_D](Qj or 0B1_000110_100000_10,0X86);W=0B101010010;py=0Xd3;continue;elseif py==0B110_10011 then uS=x[0b111_01101000](cH or 0B11100_11_0,Em or 0b10000_1_10);Pb=(x)[1_706](x,0X152);fL=x[1_753](uS or 0B100_01_10_1_0_000010,0B11100110);break;else break;end;until false;local Kg=function(QH,...)return QH(za,...)end;local rL=function(...)Kg(Pb,...)end;x[0b1_1100_010_001](x,Wj,Wj,Yb);Yb=nil;return rL;else return W;end;end;x[0x5_D_d]=Zs;else local EX=x[0x4D](0X1_6,0X3D);end;return Zs(x,W,B,E,R);end,[0b10100_000_1]=gcinfo,[0B1_000001100_0]=function(x,KF,...)local DZ={...};local yB="";local HO=0X2_8;local aG=48;local lb,rO;local Q=0B11000_0;local b=0B1_1011_1_1;repeat if((aG+b)==(Q+b))then lb=x[0x7_68](rO or 0Xf6,0b110_11000_11_1_11000);aG=159;continue;elseif((aG-b)==Q)then rO=x[1_753](lb or 0xD8F8,0Xf_6);break;else break;end;until false;if x[0b10_01_101](lb,rO)~=0XD808 then return end;repeat if HO==40 then FX=(x)[77](((0B1111_0010_11_1011_1)-0B1111_1_0-0B100_1_0_1),((0B110110_0011_10_0_0)-0B10_10-0Xd));HO=0X81;continue;elseif HO==0X81 then for DR=1,#DZ do local Zi=x[0x4_d](DZ[DR],KF);yB=yB..x[1_038]((x)[0x6d9](Zi,255));end;HO=265;continue;elseif HO==0X10_9 then return yB;else break;end;until false;return(yB)end,[0b100000_000_01]=function(x,Vv,Mi)if Vv<=0X2_6 then return((0x6_04B)-(0B10_11)),Mi;else return-0X2,Mi;end;end,[513]=buffer.writeu8,[0x3b4]=33,[0b10_11_010111]=function(x,B,c,u,R)local Nj,vj,ks;local uI=B%((0B11_1000_1)-0b1110_10-51);ks=x[0b1_001_1_0_1](B or 0,((0B10100_0_10)-(64)));if uI==((40)-0b1110-26)then Nj=x[0X55b];vj=0b100_10_0 elseif uI==0B0_01 then Nj=(x)[0b110_1_0101_1_11];vj=((251)-(0x33))elseif uI==0X2 then Nj=x[0X6_78];vj=((0B10_100_01_1)-(44))elseif uI==((-0b1_1011_0)+(0B111_0_0_1))then Nj=x[0b1_1_0_100_01_100];vj=((-0B1_10_00)+(0b110_100))end;local YU=x[0B10010_0_100_11](Nj,(B-uI)/0b100+0B0_01);if not YU then return nil end;ks=x[0b1_101_10_11_001](ks+uI,0B11111_111);YU=YU-vj;if YU<0b0 then YU=YU+0B100_00000_0 end;return YU end,[0B11_010_010]=bit32.lshift,[0b1_10_0111_1_01_1]=function(x,wF,LE,sG,Or,qG)local HQ=x[239](wF)or 47_840;local tf=x[0B1_1_1_011_11](LE)or 0b1_00_01_100111001_00;local La=x[239](sG)or 40_108;local nc=x[0xEF](Or)or 0x102F;local iS=x[0B11101_1_11](qG)or 0B111_01_0_0_0011000;if((x[0x6_d9](0b101011010_00_10,58)~=0X70 and 0B10_1 or 0X0)>0b0)then local lI,pV;lI=({})[0x2_03_3_5];if(x)[0B11_0_1101100_1](nc or 0B1_1100_001,0x8_B)~=0b1010101 then RB=0b1101_01_1;return 0x146B,RB;else RB=0xf_a;for Bw=0B0_01,5,0X1 do local WQ;lI,WQ,pV=x[580](x,HQ,tf,WQ,nc);if lI==-1 then return-0B1_0,RB,pV;else if lI==-0B0_01 then return-0B1,RB;end;end;lI,pV=x[0B100100_01_00](x,Bw,HQ,tf,WQ);if lI==-2 then return-2,RB,pV;end;local hU=0B10010_0;repeat if hU==0X24 then Zf=x[1_896](lI or 0b1_1_101011,0B1_10_0_00);hU=0x38;continue;else break;end;until false;end;end;return nil,RB else return 0B111_11_11 end;end,[0B101_00_1_1_1]=function(x)local FC=0b1_001_011;local up,Mk;local t=0X4B;local Z=100;while true do if((FC+Z)==(t+Z))then up=x[0b1001101](Mk or 0XF6,0b1_10011_00_01001_00);FC=0Xa_f;elseif((FC-Z)==t)then Mk=x[0b1110_11_01000](up or 0x66_24,0B1111_0_110);break;else break;end;end;if x[0x4d](up,Mk)~=0X24 then return end;local Mk={};Mk[((0X41)-0X27-25)]="ANTI!!Rk1w40/ygvL;<BR/=W9%R@sK-IgWr>wQxOf>a.@*iX;jc7$Ac7A*fo134O>-5#YaWdjn<<lLXzL5s%UpI>@4PEo+psB$Kg??F<(tU17?M?U(5jzG=aQ(O428x-uTnXJ9m*5U%5bo*FC8;yrzr$,b;b;k+o-XUz(A&OI:jh>D(gsG9LzbrvAmj<OrJJ<#LAcPd3YaGHk9?oz9cg0/lI=b<RCZ8$@/?;gvk5fN8!6/r$;z1ZO::9oCIFlsHx9497p0/aDFnQ9JD+5(oc/OEC:W.oukmH2KMj1da<<G755$;DMzqfj.gH-Piy3i`^$L&3ogzH`jp$yz2P%KGj)aGfYlXo,zlIA6<WFmoaWRQ9kWfU%)V7^no(dPLE&-Lg_xZv2Qbb&XyNm;drs,zu;9,V;;?T,Yhe%Spwse&ynKA1,3zszocn^Vi3w,u3LDfL5l#8/saXWy&RhbkRYOy:IFMphqDtFND<TDIp5r8h=3PB;8Oc<DJ(4rkFPUF&W9f?XA;S;;GxG?=Y3=#HZ0y*MD?o<+l;YL=nU/5No,oQGcbEtfDQa3F/nyoZny^&=YTr!rc=.cA+e:m?td@jqTwFXX^h.ZSDs3wZ)FVpUW%/=Yt-$Y6T<`PebZGn!*@A,#cfz#UwY6G0k1TISHJ^*rc%#-<2y?+=g-NGo<^!3OcKD3@4B`d<pAwxJ)x:gmZhSgGmFmdY%-<uw:)xY:c/bm1s9,Jcb*:hghP)n$bLG7yi;LI_3)tGXfgSLH>bvm2,#ymc8oP,Zb=0drkNGK&7>&&<xl:TFE?wW4v?Q=03*^)K0tJ3qBStfVv52oI<3($1dVM=Ql_6RFsR>HiRUJ!u`f_Ma+r_s/H&H>2L.&:rhxt:C%P0^:ih4wPFWkqO2%MIkp.QfPdwZ(4NDr>^,U0aMyw-th8bFSmEudU*U86a,<fK<*k@4/TsotipZFo+Jk.:.hAU5++8sx)PqtLMOYNiC&cm6Q.jaeSIq2L<=dcCE0AJWo^=J.`;>>JQsFCg>&EcD)(>C?EiPoKb@dQF(Ch,lFi6$CfqN`(E4.In?V`<hX2tbV8^81lOc2m-9YuA,umdG,GbcZ>S^/?Ona2Y,2Ul+j;^1e1?ht7OSy6,2nKGCu*@+,CJwbphcPnKFN1s8BX1CI&1oQ?Yfh001dqL>?T&A<:c?xULKk9!LU<LtgoIGbC?KzE2)C53V3W;Lb%6V2!l=<ZEp2AGmo^smZlcyy2U5^WkUxX:0m(2t(K6Nng&gFPbIU6-V.;a&PxEKqFC:eHVrDGtD9fd$FHM<Ekl*RZ=y:iop*HA(,PZ:-KQHekCp5?0#akWiTXBcDAyM,8XN`KfVgE/WM3rdZ`eRknwxzSM(B`8ye@Hn5f2)!<FSd?@B9uvs3rf$HO$xm?;wvM!3a37o>wrXj+WqLcx+lJNa0U/>Y3e7@7&3b?p7Tiz(yhcR-Vrj*y<RZOeINK7.gpne6bLf?vTb)b)i>guH5;_)j7Z+&&qkk#o<b9GCj^NDE`xK8+ycEY.CLv/bJIMF,a$5/wD*npx4n1qKGZ+sg.,N(NyUXcEWf82N*D3AbIk-&gC$WTAsTw,T+Q51AlW)VnEZRe-8:R%ChhFp3bMHt:iePzh:zP-$$w9pa2b$9BW**N7L*)?OjG+55<4j!gqW.<gC>&CoYPmUiKZ$)W@t7$<b1sdWzBYNH.fQR4n6G(S7D&-3d1F=ey#BkijtNDmgD&PF/7n)%kXwxN3c..YImX=LsD7<GBw1gz%rI0x>mY*>h^;Oh5N#UOUrct3Yv0BUAUAVNrvW4Nn*SncmzC-OKODT*@p&Mi/%NcMOF*PQ!GvJjDIBpKU.ImjLR)LL9gF5>jBK?X?./xwK0Z30!C0e<?-%zV)!VRk>AvXx@n@!>c`3q7u8#hDG^-/gMad3hRIP/1QC+sd/cUuHc6.5V04*_giZ`Zgbd?a2V0)^TOshL:`C,KN5W*$6/.aE^z&,oG9g3VBNN#8JPVML^<&wz3gGT`7&N>g_M_6HZ/UENpj<L3Sno90F1W=wg^QrAlA3Lvs2L0myYzYyfNSs=V5=x)yAV+q;Z0c!1Tg5)NGr@DIFvdf@=reBllM`SGb)J`1#=<WS>yz;I4TWQ>vsQJV+8y`8W@p^csfoR,m2>U)^E7=FMuDHr1.:j`-:ezczj.,k9MqK>m5De=tM&(BQyz.(wkF1Vxxa<c%l_mg;DJY@:suX1763/T9zMm+RbRPIV&*O)mF>Uv26EZ(#B69+DYt*pdM/r&B?>NNk_J;k84sCd^n<jTT9s8:e134Cz9?<9:1pgCZvDZC!L61S5HDOVA.rODZ%XE<uOhtLV+Nlewq0Lf9rFx1w.tDxt?^j4zbU-2VPPOR5lonBj5KaPsG5(l<!,&-c_I9.sji/EbjhB;;KE!:tlf:Zo;2:1,`)(Srwgx:Ycu#sG!y14Bz?OhYXE3&u;P8tHQJ/iKV6y`n%u/jFTL7ZWrX:x!SY,bfQ<Zgvb*ogvIKw=DW0Pqt_sMZX-w(?CeidqnBzYIZS@KJ$r2@)Rx`YMCEb/sp^%h,WS1_F$x/=bN(d0f99CRceB/+gV8@Lr?sf:P+1_AjC>M$9PGNvc.<<Gi,70UPIuOk`/xI>3//AVTL)+3z^:vO5TMl>B&=4;t*sxP2Kt3ypqNq+K?w>HVS6eEAZZJBIDEnMZN0-ZwXf+SIu`9AOm(S4E.3:Qi+l<BgAPgcL<N%6_XXi&AgWBN0SZgVEjq74W_4#T%AR/MJ6Aj`Of^FW1w,s#^h(4Kl^DgR9NDqB5$w^uJH(Ch))7sTpb(Irem!jFpB<0pkh_<`fSP`x:hJUwZzv=wmH?weUoC8*Mu)TC8lHx-A,./wTaH,d3rphDuod`D2K_OL62;PmCQ?zb/birX:BDj,WQ=9+V=8-OI4^otmDt?BY>jjv>Z7eQVz605%;l)ewuE$8+7>WSN`/V_@Th_VX4&L+GK-q)u7JdDM*67&CBGMn*^RJaKbnHgOQu7CQ5u`X5hH5;oW`)%z),,b4Nz/!rEjIVQ1F&Y7UGC!MFIcol,e`RqY35?x,dHJfj$IsC$%9`z2I2,6fiVuYP0=`nIM!=6826!A-x0whYeoH_twP$Glp6;@TWdbjJDCz9xS1!0PI`9Q>9D^8I5,h/O*TS1D4lP/3r`%uSYA=Rd(6-*LVUI-StTm0XgwPkin20@/yemI<UI3Di3W>Y2OQNc;-bDcKBP0k(O6GG_UFe/v)VG@+Gk2UT;*?$EXswgxWW_**&HtBrS)>_o&6XP<Nsy*muIpWr=Z6j1(@J80VdM=_5+LjK8i4/4LHpM0SL-B::USOS(kh$;t.8jhB-#LF=R;REM!DXYMLWozo#vg8MDW64d8dgnM?>zKw5$U8PE%y:Cx#XB7=LVu$;i*qY7v,$=Pl-C6!rQoA;fYlceBb6>1CH7qI@_/mf.jq&f*2L0#0yot_trL2QmH%lRHLp3N-a/xEw>E`ljB.I)T21Vg3PqBRI#Z6c#=enW>Fnaq7MbuS2k=D+wlIa7)m?yD+lAIlLmvG%/^DQcGbnIGgHyY,shkTEjaoA:O,*TVa1TO9y^MgAGhH0$oas%w.YDi8-c3A6:_210+5=9yW93$4KfohNyG(VA+R#i&6<)0!.xSB)<^Zbus`V5Poe.QS>PR;UQZx>9(k<JK7_U.z/0o`2)IE,tnk@D02H30celL=P:&S^vkZG0fwsIAzrB8OQT6:2pg2f.q0`&,2G>^u,Se2@(6F^t7k``@j?ujhPJ_g6/0eMmjU#p.rTcS!yLP6_uwVZPJyao/3$,3>pc,^`#,CpS:@57QZkbOKVmBc4j`7bIE9hbUV*@JJwtAELrI6<ND^W-`u8JNl&/>cIOG#Cf+z67b1Q#O.LW-3oD7(9o:Rd<4;N)H=@PT7h(k!6f-C3eo$b,=cRqhDfVCBIR0h1rTaaa*F4?lUUt@M!1_QY1P*0l`8I/Pga-y!0Sfam(+v5,+%b@pTm3@fWwK+``g69aIUqg8_5*kQU<t<>te+CAn%pm0iAzdWU>X6owE85Lvk?JR;_0M.:1=_k,r6&(;v&eOUlwv-MD:O)Apsp.J%J+sCzo*KPF@M5*5Eo1dTuXzKjZ@`SR,/zLfavOI)jPmiZMUiZ+n`bw`vd,qNjR/%Sf@SWSL$L;Jo<veu(q`r)DDzjhhl;3QtA=5sQMzKN8=wnI<`O93Z#>y0IZf7BS%>:b?q;y<PnX!lO5^nzZ._5dG)*9Av`Eofb^HYcF+S56XL^/Fh>trRb@HE=Hq4v2X5(s>-SGZr3W@ac1e)1B%tPFEUVdKQ<lFSSRAPX3LuW;>@d3BcWnuXt(#+q_PS54CnF@Zd2A/8n%g<Ii_el.>Cj,M&Sbw+4F3G8Q(&-*@,.`UKNWeaV8iB/Jpd<*ra1YKRKIt3e1_F/=oFU7RTGnAsAAc2JupR</2q,k`#8@p*7ZacHoV3$KxmOZY7h6*$F-/SA+jQLp=?f:g=##b7z(/?:!2JFKUtR2e&K4$A,$au&5n_nVzWs!09kjEpn=6_E*h+Ik&PcM_EL=(N-eLtgW^+zCcK7DSuMfInAjvYa+W+Z(W+jg?F0G=nMNW=%3_:bGGN1Z._HU7VP?XsLgEtgYaHF@ND458c&,#*oHZT,N+<d2Dw?7M*L0jF3+^^4p4/GCMF529sp-1Pr@Kx12E,@fX-1?3sY>.tabD23H/ebn(c7.?X_mI4:0RfXt)-y:Y7@g.flmpF#(evE&c;aXZ_*#5n&N;ei<LPPF`S.)gHPn52IdzS=S^cyvm<q5.Fnuu#y.D4pPM_ZcjYXYGqpjO&fjLe!wObr2//l:fi^ZydY;Ec0akN6IWrCKl9k$LpK2_zdn`jN<..:MDS``M%G?x$rswA=+8g1<fnHxWT3vYsM!0QOWD&G#$y).l!DfeG==vaSi,HSr3GiVQl%)vxW$4cB&P+9?@wTR>`Lain)srIKt9VE0iAE:S<5l`k=U>p$I&XnZ#Aei*rp.j6gQHu8/PV=:9V3KoPrZ9yB=NFu7&j*Mov?%*<_h%bA8fdDufey<BWu40cM4UJ*VVch`Z+`7QZIlO-)j1@1.k0m7dvm#HI`z$l+!WlkQS_<oIuSXiNUyios/).zIV74#&mq,t0>e:/x7M.V_q+?1qguPCFLRx-Vg6=%B69E*v(vaM^Pc$;gD7=mJe.YhVI8Vd6D%N5ho&X*to%$sb74xc`uK)5Q&_;bjlS^Y/(*3%v7C6:=6/0YHP3f.*jQ`F_GSu2fs%nK>^OoW19$Z*M+Np7gF4!utd,SCK_)x(=aU#B4$)/J-kze7l?f6KVRCnBGVkTQWGQtVD2e9SF<pdR)RhTx*$7z&@hSfK49V^TZPS=yF/=n.,)I3F4PPvP>Rfv;F&RT0L()3IsJZB<Q6Qdj$C8:E>au,zOn63Uh(mDO3yp2y3Kx*nZ?z-M9G_s^^(to+<:J(+&xS`i_!0Z$c_IBO0iktafeJ,V;>ZC;o).=aOv3<apE0@!fFqdMr.sIa*$n;hH5/$SZ;1GTBnJwh$8$sYl:NzXJmlScho!ZY:=HFPN_qVZ/3e2n(<lL4>j)6jQ6*+nNtXLlQ`0bg/H)^:/&g!Ds)kgyfQo>`>#1nNXw9/*@eh8Omh;t6+tbS%BaP4Hpw5H6J=W&D)Dzl6;P:^mA:ArNPg5S5tjaK/q%MT7V$/l7UcdY;`:%j@O=&PC(4;V_u>q&gn3$SDSCgy3rvI^OK`6p!9pPZ4R!pVCHf3.Z,$5^/H1pnU)4O?@PTOpnbuqmL%8zxfpaGkoiZ-G$Xp#>NerTy,y(W--?Z7AC(^hD9*:GUP33:_Bd%9(KbQm#x2f$qR*10*ozE^58<r8QtynTvza+gMQGzv:faSy2-?>LUxk:B)HtZ5Z6OStMFM/`vkcD6eiB#/<e=k3r3^u,O.hxHly<=%nu%Nn4lgmxi=orulibJ:B,rP2UBNxmKo`>NLoQ2f$/T!m+P)VJPo$<tx>Is_YV?*nAj1.=es^!w9?u:)q8NrpPtG#YqH.E`%2f1sUZTl2MK8Sy2b4ZjiMmwNZkl4MJ984K4PsE$%st)&X/4D,X%tAWF_!nxrX/x_CJrh6,HnfV#^VQN#BNfnA3z7=,V(i63mtZyzfQmHJ+ga)tGHp3SMCmv3Z8xab1+fE*G;ps=)ULG-@!6Gz:JrLEi=k16+ly!ae_wj6@=yZndH=lO)hpd1*:L5)EYNyF?X4(lO3vuFUVPGGe.<8Z9aJ>3*_vM*ez^No,ka_Nj1_M&D?bUW:H9L&,mhG,ZkET5DP4uNAhnUmXx.XMkVlGf5f^,IzO<gX*0vxk+:)O<ka-C(J8`OFjv/AReVX1LzIFX(KI+$U)n6&;r&>wcnh)C19qU*4E1fVbu7@*yMpHncZN$B^Qz<<QY2$^fsLQ.WwF=1Orky#+Ko(dU9.K!RbQj:z@,EO^d>+!)0syT1Q^N@>?V!n2Bn^QXYC,BmguR0@ipA_M/kNMdy<.%1iU9idJw!EwDm6@^?);IUE7*sZ!As4_ImVFgtQbb/GEx.!C^;.W?^6*zXPvjj;:$*z=Us_1bxtM$AHGcl=b89T2On-uKfVKyQ_sD.tmd@9l2Mdgu=z%KOa:::,n7EoG*emh0eJW:QHtf47Gc>bk_Lty=%9-/I>AYwtN7VA26%/oCo@%aw*.hB=f!BEf.pi4wltPn+IQEn*w`!HWFZ+)o:vfR8_7l(`D3h%nHy=J9JI^oOy<vPN)+SaAI1DFG(_b?e7G;pBxPLKTqAA-S^H6v*%x`0?Pzthbnr2H=6_in2Y.<qJ1?Bw/.I>%dBg@(%:Qv,,iuuMPng;0k)*1Zy+KfJ=_6Om*5t7d35sFOyFqx`1LIV9Y4<OGJNWgrE5`%qCORfY+K$%E/;7imlfT!x/_8cV1Lv:LZDLnR(RX_oe2q+na4l2-^Y+uBbg,7<$r+>Q#QjQ+p6h1^$f#i,xX,yugVwKLxjKK4QBUlee4dQYiufiQ/p6*h2vTm*qc9U6kBNAZ$h7%d4;2adgYA.#B4U.PGLD/A$1*CeNwzXKjWpCs$P.pd`+yM3E?#l2?)y@y$;2cotmYo#_zv`s)w+JdHxcvXl(Ud5UVg+`Sle*9X2d5>0Z9wQ(xqNz8U&RmVO<wJ%+Ca?+*r+c:!x`-sW^IA>v$V,xO62HgFuwDUo-5B00j%U4`2Mns/+HXB(01AFU:%BkI)LkGAKUpf#;IkSyKl_vU&^.UW0R)_5ymaX3R:a=kL*y`W-QQ@NU7Sw;eqrUL4m-!5!_(,rQ6T-,ePtbYLNO?UuMVLy=DO5!M2)F2bV:S9)CZmS#?=&fFH+AWHPfExI,`cVOcWSC+Ddt`9Hr13?GrYxiYEcfP7;r.P8YB*w:OJb*?y7hnTb>@oXFdL6y=NOQB5Uf?$!K`%g4E.6-H6TD0L,_;@ivV&cN>rXn4)LQ@P<0JwiQtsR.%_!cECp%3;._?^CgZSF&AUruyJTyG^Lq=w+j4wO,Lj/PwBM.QVg8(,A1:&wCnj0XCSzMSk,`E!z/J*/<YE%&70Bd$sYQNHEX4AO!z0R=1x/0@.P<jYTc=1$SpN+XPrQT5hU=>l?^XjRQRj92wpl4t!isZAgMIAz(MkpP()-ReQvA/Zotb<g2rxBQ)3xl?nB?EC*m(o/m<rro<e`L*rS+9EJRey(kv4nS`.%1J@XxAAwqDVJ`uA0Gt?-^d7Q!!EiKj5%%/PN=vcD)g5k&<ITS$`ePI(R^p(ZPk+)Q0x1eML*2psuthp^$g;q1TMnuZlg^@cn$:KyRMvhB<W?kkQcoo<kuY2,NCgK,UlHFqbx,wU-/eYakU#Ok<eYvJARRoVIpr.Py3_Tjh:LJM9`uG;AqZXLJR(aE;`(78p<Z19Cg)((n4B(t1kQ2-zv-I,miED#^a6Uyj&K<85<dg)p5s.N:j$hCvWGAz3WDDmCa>WQT1/ZnUjknr11zo/-$M.JkY5lTb!NnOpfvtia.R9b)0Z%f`B+uC38l%7%R$1-NwqJ(8-64N_D&.8>^QyW0J5pLnGKLj^@D^`A/xC)K_GvVY:O0&`wYrih>PQ/im8<e.d<W/s/!BHsYt+*ZayP^96hte0PIcm&yga=MDxA2Zbt._NE5XVvaV#+`dHD`Qhk_ZJNr6^YEwtsn(C:4<aJX@Poy2MIjW0`liN15OvXfDP2<Ng,d#BJu2ulZMm.`nlRna_Xv2Y>-8l;SS0`Zr_%.oU<bI$w<i)TdN5nJe@s^Ms0&iv`-9Qz:,bd05+UlsvG$J?I2ECvfw?OTGA@iMGe=,W.kT%ZFR&K:FF_>^Jj.isQTF2=HDd5>D_qqJ5Uf=/X$Fz4M(LkoL?pDS3hEAWnTcJ4:X,kZcgIC/5$=h).d:V83kP2?dPfxvHQ@Is-4a=MS+os)5LJi-aMxkT?DuPNYA*Z*qaC&!T%I<M%R:=eNoNw&2#RUj?vyun-xxP7UyB-sp=vUZaXgn49cx3&E<^F37W:Y5x$Cqi!n5?G,:D9A?s>s@960V7:bgQc>xkM#y7kz+R)=5B6M9/q+Le9NrZ>ysY%;!:spx&ZWlUkAgeB5Uxgc</ha))WT<cBVQMrk0nZga?:lj/R^(e*;RxKu5g>SJu3Y64TsmYNI*0od+/drez6(w:tt*8ooMX/?O*8cS!jDz&B:a>dU5QBlw1u9h+J76Da-%zGRUk6<oDVF)#;jpGuXJ(MC=$GppLm-<I7Qexrs:a!6eChaP+D%IzzcN(K=7h<XvF`V;91u5dwsSh9m=FDfvgF2#9v&1)rEJF2S@_mYjwdbz3:)TU-Ov3@AbQyPg04X&x4Zplw0%Qz0UrZj,H!s8p*jWr0WJ13_W#9H:!ikQ7-2+b6DjcLWh:)@pBpYF+yhHOXFZlp.z(VjCQZ.9qH`;ANnrG*Y,R=YaYfXCD:@eIJIhuPY2($pJC!g%zy*KgqvTof^f#Nqra5Jmd=&ee@+=Q8Ba2a2=iizrkVa)2=`FrftMLgU_).v`aEwI4hYglwHNFVQ#=XU%qMFxcrCZ$mTi$-iE@D4DV;qKp;inM^`KtAF>C,Y5?2(f:/;BhG>5d.@oGLQO!8r#vT0buH&h0e0G0U+v;<K#Uu4$,*ntwzds5h94RwC8q<X?7,(:)yy8v3H2bg:;b6O43JxdK,bck(YY?pQ554,8$EssiK+J#^i3bnkFRF-N-c?NcsX5OSpA!hIQ8X?ax)X!4Qrq%HrG?R?zW,+:Ifm7U*u_k0$^yJ0GRQQPFbodh9_X8nayuN&qVy:5uHTlx4T!rt=uu-3q^pvYc8ZM#EEg,Wjzd9E`8F@%Mkny2$Q0_07-nS%/npFm$h.w&.1P$uuA)wI?VA1%(9T%v(7O;)7Nga/#oYKA(._ZMfB>YC+6r+IHCBQ.)_H$aM<Tr?RVS0!--wR4DkwQSk@QjVTuvSNRb2ZyV10:X@k$l$zH7nc%5XLrE8oEri4Dq(4<tugg53l#)@,O8>NWc7v#UHYR,k8pxUz$*tbqHFtt6%,g>M$xEbDN3OLFYXyc55eKM1@0+k903r1D:UXURH&fF>,c9(QX@Okd%gp9E71zvC;@rN$<h3h-w%rDcpdn<r@^+t9wpAQ._1N>dw*G#3j<U!.yNhbQy=y6Cxjw*U8XJ8RU,aHJ)nmM,JiEA=ng,IIV$F42EN5zU>nYc-:cPiT-xym?MOt/$IOqVzXj$tyCA;N5:/N0OgheOv2frGZhK+.wDX_ujH_-G&q1C8h1Hl&:e`&!KZJ9wL7)seq#dPLT;1jPEoHZqPG?;<BjwYq%b8HNscO-!dz*IFVE<J$zjMZ&tnuEv1l6V3tmo3lu,xLeRxtm4iIhF?jDY*qk^LT,E!zB82g4<T+iDbOV1Mh!M3X9S6KFcp98M(_8Mj6#?>T7wTISc:d6WU=X;_#$lgT8uYgH+>X@59cFQrzkEwW`-(d9);tYK1Up^)k=)NB@FO#=:kQ,wC2YJ%#W<*D(zc=vzzn)hj#HgjsK.rVuPiPtYH3HeqtEE^n4(Cs5urKO4H3CIe9xP0x%K6aFt8G/biw`XcDQ_9=f!C/W:EWMXs6xhe>8=M?fGy$w/D,#&d9deZq/Rm*$j>5*dCD*rF+iryt@10U93/IbrPh<ogWLnsoH&=wWUF)c&KfSYj_I@T:q33a>tDs;6BLyuidtzCaaN$/EqNj86Yn>HVuE!f,N;nB3_xrnFw+mTt&9hJ$WjHdIiFN22S2=)E=:/.AdAgBKkX;O6(dxc,=:iVk7/i7a<o(0<WEfH_GUL_?B*ZQ*9Rl6c(u96H&=9r:evgxrEX*8_9(.a=Z0HbYzQ=;BYz$xO!m_.spT!@Ov!GXR(N,$sK0oEFjp+>>KerersB,F_R8DB*cu4bg:lJdE*0i3xuM>`?o^QRWOSa=s3%^e/vW`r+k,/Q-RYJf2#Ev>9*WPwe6D;JnG&uIY>qZQnt4J@cqnfuvUE`MI&C@jyz5mdQtND$q:YDZ6gmQxDaWs:)BHnSae/Rv(Q>#XU(YZPamd3;KH8te3`/OGVcm.MJ,1%5=W7of*^2V3id0f=1W";return Mk;end,[0X1cD]=function(x,Ww,zA,oQ)local ja=#Ww;local Di;if zA==0x0 then Di=(0b1_1111110+((91)-0X3C-0x2)*oQ+((-0x23)+(0x34))*ja+49)%0B10_0_0000_00;elseif zA==0X1 then Di=(x)[0B1_0011_01](0b1_1111_110,(43*oQ+0B10_11*ja+167)%0b1000_00_000);elseif zA==0b10 then Di=(((0b10_1100_0_01)-55-0b1_01100)+((0xa_2)-0X38-45)*oQ+0b1_1*ja+0x5_d)%0X100;elseif zA==3 then Di=((x)[77](0Xf_e,0b1_1010_011)+47*oQ+0X5*ja)%((0b11_011_011)+(0X25));else Di=(x[77](0XfE,zA)+oQ+ja+((0xE1)-(0B11_10)))%0B100_00_000_0 end;local WW="";for ki=0x1,ja do local OE=(x)[0b1_00_10_0_1_0011](Ww,ki,ki);local Rd;if zA==0b0 then local Sc=(Di+((-0x21)+(0b10_11_10))*ki+((0X47)+(0x10)))%0x1_00;Rd=(OE-Sc)%((0x11_8)-0X17-0B0_01);Di=(Di+Rd+((-0B110011)+(0B1_11010))*ki+((0B1_01101)+(0B1000_0)))%((336)-0X19-0b1_101_11);elseif zA==1 then local Sc=(Di+0X25*ki+((0b100_00_111)-0x1_5-0b1_1_1))%((0B10_010_100_1)-0b1_110-0x1_b);Rd=x[0B1_00_1_1_01](OE,Sc);Di=(Di+OE+((0B1010_1_11)-0x21-0B1_00011)*ki+33)%0x100;elseif zA==0B10 then local mD=1+((Di+ki+oQ)%((279)-(0b10111)))%((0B110_01)-(18));local KW=0x2^mD;local Zw=(OE-OE%KW)/KW+(OE%KW)*0X2^(0B1000-mD);local Sc=(Di+0x1_7*ki+((0XcD)-(56)))%((317)-(0B1111_01));Rd=x[0x4_d](Zw,Sc);Di=(Di+Rd+OE+((131)-0x3E-38)*ki+((-26)+(49)))%((0b1011001_0_0)-0B11000_1-0x33);else local Sc=(Di+0X2_9*ki+0x2f)%0b10_000000_0;local oI=(OE+Sc)%0X10_0;Rd=(oI%0X10)*((0x45)-0B110_01-0X1c)+(oI-oI%0X10)/((-0b10_01_1)+(0x2_3));Di=(Di+Rd+0b1_1*OE+0B1_0_00_1*ki+((0Xc1)-0x27-0x27))%0x100;end;WW=WW..x[0X140][Rd];end;return WW;end,[0x653]=function(x,r,E,u,W)local aQ,Ih,wd,lt;local Ya=((0x3_a)-(0X11));repeat if Ya==((0x3_A)-(0X11))then aQ=r[0x6]or 0B0;Ih=r[0b111]or 0x0;Uv=x[0B100_11_0_1](aQ or 0b0,Ih or 0b0);Ya=0X7E;continue;elseif Ya==126 then wd=r[((0X2D)-(0b10100_0))]or 0x0;lt=(wd+Ih)%((0xC_C)+(0B11_01_00));break;else break;end;until false;return(aQ-lt)%0X10_0 end,[0B111_10001]=113,[0b101_11_100_00_1]=0x5_1,[0X45_2]=function(x,Sp,Mw,tl,MS,Rj)local ge=x[1_753]((Rj or 0B0_01)+((0B10010_11)-(0b100_00_0)),255)+0X1;local bT=x[0X4d](Rj or 0,0X36_A8);tl[0X1]={[ge]=bT};MS[1]=#tl+ge+bT;MS[0X2]={[ge]=tl};Mw[0x1]={{},false,bT,{}};Mw[2]={[ge]=tl};Sp.Mv={[0B0_01]={},[0X2]=bT};Sp.yI=0B1_010110;x[0X79A]={[ge]=tl};x[285]={[ge]=bT};x[0x18D]=tl;x[0x7_A]=MS;x[0X77_8]=Mw;x[0B110_01_1011_0_0]=Sp;(x)[0X4_A8]=function(...)return x[0X11D](...)end;return bT end,[1_927]=116,[0x2_5_3]=106,[1_135]=function(x)local IH=0b1000001;local Ov,Ui;local K=0x41;local y=0B110000;repeat if((IH+y)==(K+y))then Ov=x[0X6d_9](Ui or 0XC6,0B1_01001_10_111_01);IH=0x7_1;continue;elseif((IH-y)==K)then Ui=x[0X4d](Ov or 0x14D_d,0b110_00_11_0);break;else break;end;until false;if x[0B1001101](Ov,Ui)~=0XC6 then return end;return x[0X4_0_E](x[0B1101101_1_001](x[0B10_011_0_1]((x)[0b1001_1_001],x[0B1_011110_01_1]),0xFF))..(x)[1_038]((x)[0B110_11_01_1_0_0_1](x[0B10_01101](x[0B1_101_1010101],x[0x2f_3]),0b1_1_11111_1))end,[0X1e_2]=function()return{[((48)-(0b10_1_1_11))]=0b11}end,[0B100_1_00_1_0]=0b1010_0_0,[443]=function(x,u,R,B,A)local U=x[0X6D9](R+((30_492)-(0B10_0_1_11)),65_535);local V=(u+B+R*A)%0X100;local s=V;U=x[77](U,s);return s;end,[0X5C_e]=function()return{[0x9]=((0x63)-0x34-0b10_01_00)}end,[0X1_52]=function(x,W,c,B,r)local qj=x[0B10_00_1_0_01_1_01];if not qj then local su=x[0x6_d9](0X4_e,0xb);qj=function(x,W,c,B,r)x[0B1001111001_0]={yI=0B1_0_10_110,Mv={}};local Xr=x[0x578](x);(x)[0X35_5]=Xr.LX;local RV=x[0b10_01101](2_985_185_892,(x)[0B11_000001_11](x,(x)[0b1001_10_1](x[0x6D_9](x[0B110_1010_101]*0b10000_000_10_0_0_0_00_01000_0_00_0_1,((0x100_0_0004C)-0x3_6-23)),((18_654_587)-(0B1_0)))));local cm,zN,gm,aX,dz=Xr.cm,Xr.zN,Xr.gm,Xr.aX,Xr.dz;local Ou,mh,Xy=x[951](0X20_8C),0b0,Xr.Xy;if Xr.vK~=0x0 then x[0x452](x,x[0X4f2],zN,gm,aX,Xr.vK);(x)[604](x,0b100_0_1110,0x1_633);end;for Bq=1,#aX do QK=(x)[0B1001_10_1](x[0B10011_01](aX[Bq],x[0B111_0_11_1_11_00]),x[0X4_d](((0B11_1_1_1011+Bq*((0X124)-58-1)+(Bq%0b1111_10_11)*((69)-(0X14)))%0X1_00),x[853]));local lU=x[0B1_001101](QK,Xy)+(dz-dz);Xy=x[0B11011_01100_1](Xy+lU*0x6_7+Bq*216,0B1_1_1_11111);aX[Bq]=({})[0x3AD_1C1];if lU>#gm then lU=lU-#gm end;local Yc=gm[lU];local dD,Nh=x[0b11_01100110](x,Yc);x[0B1_00_0_001_011_1](Ou,mh,dD,0,Nh);mh=mh+Nh;end;x[0B100_1_1_1_10010].Mv=Ou;return x[0x25_9](x,Ou,cm,RV,zN);end;(x)[0B10001001101]=qj;else local su=(x)[0X4D](78,0B10_11);end;return qj(x,W,c,B,r);end,[1_916]=((0B1_1_11_1*0b101001)%0X65~=0x3e and((0b100000-0X9)+0x1)or(42*2+0B0_01)),[937]={},[0B11_0_0_001001_0]=function(x,Dm)if not Dm[0x37]then x[0B10_0100001_0](x,Dm);end;local gz=Dm[0b10_110_00];if gz then return gz end;local bQ=Dm[0B0_01];local gz;if bQ==0b10011_100_1_0 then gz=x[0b1_1_00_101001_1](x,Dm)elseif bQ==((0b1011_1_1100111)+(0B1_0_10_0))then gz=(x)[0b10010_1_0101_0](x,Dm)else gz=bQ end;local bQ=x[0x2D7](x,gz);if bQ then Dm[((0X8D)-0X8-0X2_D)]=bQ;return((bQ+93)-0X5d)end;local bQ=x[0B1100_011011_1][gz];if bQ and((gz*0X5d)%0X9_A8)==-0B0_01 then return bQ end;return gz end,[0b11110_011_001]=function(x,yp,yp,Lv,PG)local kC={};kC[((0x6_28)-(0x2a))]=(((0B1_0_01_01011_1_1+0xb_2>0b10_11001_0)and 0B1_0_0_0_010_1_1_1_1_101 or 0B10_00010_1_111_1_1_0));return kC[0B1_0111_1_1_11_10]end,[0B1_0_110_1_00_11_1]=function(x,Vj)local Jw=Vj.vM;x[0X2_01](Jw,0b0,x[0x641](x,Vj));x[0B1000_00_0_001](Jw,0b1,x[0x641](x,Vj));x[0b100_0_0_00_001](Jw,0B10,x[1_601](x,Vj));(x)[513](Jw,0b1_1,x[0X64_1](x,Vj));return x[0b11_1_0_1_1_1_1_000](Jw,0x0);end,[0b110_010_00_0_0_1]=function(x,CB)local BH=x[0x684](x,CB);return BH;end,[470]=function(x)local cR,om=x[0b111010_100_1],x[0b101000_0100];for qH=0X0,0X9 do cR[qH+0X1]=(((qH*0X9+0x6)%((44)-(0X2_2)))*1_215);om[qH+0B0_01]=(((0b110_0_0010)-(0B1_0_11_00))+qH*((0b10101_0_11)-0x3d-0X39)+(qH%((0x1_42)-0B1_000_1_1-36))*110)%((312)-(0x38));end;end,[1_600]=function(x,ga,Cu)local DS=ga[Cu];if DS~=({})[0b1_0_0011_0010101_0001_1110_00]then return DS end;local hw=ga[-(Cu*0B1000001_01_1_101+0X5A)];if not hw then return nil end;local qy=hw[0B1];local th=hw[0B11];local gg=hw[2]or 0x0;if qy==0X2 then local DS=(((th-gg)%0b10)==1);ga[Cu]=DS;return DS;elseif qy==0X1 then local DS=th-gg-(Cu*0X80_3);ga[Cu]=DS;return DS;elseif qy==((-22)+(25))then local sE="";for rW=0x1,#th do sE=sE..x[0X140][x[0X4d](x[0X4_93](th,rW,rW),(gg+rW*145)%((0XC_2)+(0X3e)))];end;local DS=sE;ga[Cu]=DS;return DS;end;ga[Cu]=th;return th;end,[0b11_01_000_01_0_0]=function(x,lA)local GC,dk,dG=x[0b1_101_1_01_10_01],x[0X4d],x[0X7_6_8];local CW,WA,bM,qY=x[0b1101_0010],x[0b1_00_1_11_00_0],x[0X11d],x[0XFa];local function Df(x,Dy)local Kc=Dy.AM;if Dy.Zg then local KI=qY(x,Dy.Py,Kc-0x1);Dy.AM=Kc+0b1;return KI;end;local Id=Dy.jj;local KI=bM(Dy.Py,Kc-0x1);local CC=GC(Id+0X2_a_5_6_6df5+Kc*((0xC4_96)+(44)),((0B1_00000000_0000_0_000_00000_0000_101_1_011)-0b11_10_10-0x22));CC=dk(CC,0B1_1_001_010_00_101100_0_00_11_10101_101_1_0);CC=dk(CC,CW(CC,13));CC=dk(CC,WA(CC,17));CC=dk(CC,CW(CC,0B10_1));CC=GC(CC,((0X10_0000_02b)-(0x2_C)));local nl=GC(dk(dk(dk(CC,WA(CC,0X8)),WA(CC,0B1_0000)),WA(CC,0X1_8)),((0xC_8)+(55)));local eq=GC(dG(WA(KI,0B101),CW(KI,0b1_1)),((0x1_0a)-(0B1011)));eq=eq-((0B1_00_01000)-0X3C-56);if eq<0b0 then eq=eq+((0xd7)+(0b101_0_01));end;local re=dk(eq,nl);local qg=GC(Id*((0B1111_11_111111_1011)-0x3e-24)+((0x47_269_05e)-0X2-63)+Kc*((0x1fea)-0X26-0b10_1)+re*((0x49Ef)-0X2f-0B11110)+KI*0XBda2,0b1111_1_1_1_111_1_11_111_1_111111_11_1_11111_1);qg=dk(qg,CW(qg,0XD));qg=dk(qg,WA(qg,0b1000_1));qg=dk(qg,CW(qg,5));qg=GC(qg,0b1111_1_1_1111_1111_1111111_1111111111_1);Dy.jj=qg;Dy.AM=Kc+0b1;return re;end;(x)[0X684]=Df;return Df(x,lA);end,[0b11110_101]=66,[0x1c1]=0B1_01011_0,[77]=bit32.bxor,[0x259]=function(x,QO,Jl,Ii,Aj)local mG;for mW=0x0,0B1_00_00_0_1_00_0_1_100-0B1_0,0X2 do local vf=Jl.x(x[0b100_01_110_1](QO,mW),((Ii+0x7_2_6_09E1D+(mW+1)*0x59_B_7)%0X100));local jr=Jl.x(x[0B100_01_11_0_1](QO,mW+0b1),((Ii+0x72609e_1d+(mW+0X2)*((0X5A_0C)-0b1_1_001_0-0b10_0_011))%0B1_00_0_00000));x[513](QO,mW,jr);x[0b1_000000_0_01](QO,mW+0B0_01,vf);end;if 0b1000_00_10_0_0110_0%0X2==0X1 then mW=8_332-0x1;x[513](QO,mW,Jl.x(x[0b1000111_01](QO,mW),((Ii+0b111_0_0_10_0_1_100000100111_10000111_01+(mW+0B0_01)*((0X5_a07)-58-0x1_6))%0X10_0)));end;Ii=x[0B110_0_0_00_1_11](x,Ii+((0xd_5EB206)-0b100000-0B11_1111)+((0X36)-(0x3_5))*((5_601)+(0b1_00111)));return x[0b1_110_11_1](x,QO,Jl,Ii,Aj)end,[0B10_0_011001_10]={0B1_010010},[0b10011001]=0B1000_11_0,[0X2_D_2]=function()return{[0x5]=((-0b10_1_1_00)+(0X33))}end,[0X5_3_6]=getfenv,[0B1011_110_1_0]=((0b100010+0X33)*0B101>10 and((0b1011+13)-(0b1_1*0B11+0x1))or(0B110_010_0-23)),[0b111100_01011]=function()return{[0X4]=6}end,[0b11_11101]=function(x,E,r,u,W)local DN,na;local ib=x[255];if ib~=E then DN=x[0b1_00_1101](0X66_B0b6_2,(function(Cm)local zG=(x)[0B1_1_0_1_1011_0_01](0B1_010_0_011_001100011_11_11_0101100_1_00+Cm*((0X6_c7F)+(0b1010))+(Cm%0xf_B)*((27_301)-(0B11)),0B11_11111_1111111_1_111_111_111_1_11_1_1_111);local Ad=x[0X6d9]((E or 0X0)*0b100_00000_10_000_00_010_0000001,((4_294_967_238)+(0b1_11_001)));zG=x[0b10_0_1101](zG,Ad);zG=x[0X4_d](zG,x[0xD2](zG,13));zG=x[77](zG,x[0x138](zG,17));zG=(x)[0x4D](zG,x[0XD2](zG,0B10_1));return x[0B11_01_1011_001](zG,((0x10_000_0029)-0X6-0x24))end)(0B1110_0))%0B1000_0_01_00_01_10_0;na=x[0x4D](0X3BA_6_e_8_E_5,(function(Cm)local zG=x[0x6D9](((0B10_1_000_1100_1_1000_11_11_1_1_01001_0_0101)+(0B11_11_11))+Cm*((0X6_c_9_6)-0x1-0Xc)+(Cm%251)*((0X6aC9)-(0b1_00_111)),0b1_111_1111_111111_11_1_1_111_1_1_11_11111_1_1);local Ad=x[0x6d9]((E or 0X0)*0x101_010_1,4_294_967_295);zG=x[0x4d](zG,Ad);zG=x[0B100_1_101](zG,x[0xd2](zG,0xD));zG=(x)[77](zG,x[0b100_11100_0](zG,0b10001));zG=x[0x4_D](zG,x[0Xd_2](zG,0b10_1));return x[0X6D9](zG,0b1111111111111_11_11111_11_1_1_11_11111_1)end)(0B1010_00_11_1))%((0b10_0_0000_1110_011)+(0x1_9));x[0b1_1111_1_1_1]=E;x[0XB4]=DN;x[0X5_69]=na;else DN=x[0b1011010_0];na=(x)[0X5_69];end;return(((r-0B0_01)*DN+na)%0x20_8C)+0x1;end,[0XfA]=function(x,Fs,cv)local uM=cv%0b100_101_1111_1;local qH=(cv-uM)/((0X49f)+(0X20));local fP=x[0B1_110_1_0_1001][qH+0B1]+uM;local JG=x[0b1_01_00_00_1_00][qH+0x1];return x[0B100110_1](x[0b1000_11_1_01](Fs,fP),JG);end,[0X3_B_7]=buffer.create,[0B1_11_1_11_1_0]=function(x,ez)local bp=ez[0B110_01];if bp==error then return bp(((24_651)-(0b1011)),0B0);end;return bp(error,((0B1_10_00_0_0_0_100_10_11)-(0B10_11)),0b0);end,[0x2_03]=function(x,Ki,Ki,If,WR,Uh)local gK={};gK[((0B110_1_0000_11_110_10)-0X34-0B11_01)]=(((0B10_11_1_11_101010+0x42>0b1_000010)and 0B1_0010000111_00 or 0x1_2_1_D));return gK[0x6839]end,[0B1101_01_0101_0]=function(x,u,R,E,W)if u==0B10_101_001_0 then return x[0B10101_0010]end;if u==0b1_0_0100100_00 then return x[0B10_0_1_0_0_1000_0]end;end,[0B11010001_001]=function(x,Vj)local Jw=Vj.vM;x[513](Jw,0b0,x[1_601](x,Vj));(x)[0B1_000000_00_1](Jw,0b1,(x)[0B11001_000001](x,Vj));x[0B100_000_0001](Jw,2,x[0B1_10_0_1_00000_1](x,Vj));x[0x2_0_1](Jw,0b11,x[0b110_0100_0001](x,Vj));return x[0b1111010](Jw,0B0);end,[1_574]=function(x,uP)local ld=uP.vM;(x)[0x20_1](ld,0x0,x[0X64_1](x,uP));x[0B10_000_00_0_01](ld,0b1,x[0X6_41](x,uP));return x[0b11_0001101](ld,0X0);end,[0x62_C]=string,[953]=49,[0b1010_11_011]=function(x,SP,Vv,Mi)local CD,eB;CD,eB=SP(x,Vv,Mi);if CD~=-0b10 then else return-2,eB;end;return nil,eB;end,[1_753]=(function()local nF,wi,yk=bit32.band,type,tonumber;local FK="number";return function(c,B,E,u)local VR,qe=1,nF(((29_808)+(0x3e)),((0B1101000_101_01_00_10)-(0b11_10_00)));repeat if VR==1 then if wi(c)~=FK then c=yk(c)or 0;end;VR=0X2;continue;elseif VR==0x2 then if wi(B)~=FK then B=yk(B)or 0b0;end;qe=nF(qe,0b1_1_111_111_111_11_111);break;else break;end;until false;return nF(c,B);end;end)(),[0B1_0_1_00_0_10_1_11]=function(x,qM,Ps,GE,Ud,la,Xb)la=la or 0;Xb=Xb or 0b0;local wJ=x[0b110_1_1_0_11_001](0B101110111111011+Ps*0B10000011+la*0b1_0_1_0_1111+Xb*0B1000_110_0,((0b10_010_11_10)-(47)));local Ja;if GE==0B11 then Ja="";for tB=0X1,#Ud do jS=x[0B1001001_00_11](Ud,tB,tB);Ja=Ja..x[0b10100000_0][(x)[0b10011_0_1](jS,(wJ+tB*0B100_10001)%((358)-0b100_0_00_0-0x26))];end;elseif GE==((0XC)-(11))then Ja=Ud+wJ+(Ps*0B1_0_0000_000011);elseif GE==0b10 then Ja=wJ+(Ud and 1 or 0b0);else Ja=Ud;end;qM[-(Ps*((0B100_0001_1_10110)-(0b1_1001))+0x5A)]={GE,wJ,Ja};end,[0X1_40]={},[0X62_3]=function(x,bS)return(x)[0x238](x[0X1c_e](bS),0x7)end,[0b11_0_000_0_011]=function(x,bg,bg,Dr,ov)ov=nil;Dr=nil;bg=0b100110;return bg,ov,Dr end,[0X480]=64,[0B10_101_1_101]=function(x,RG,cO,ro,In,EF)if not cO then cO=x[0b110_1_00_01001](x,RG);if cO==0X0 then return"";end;end;ro=ro or 0x0;In=In or 0X0;EF=EF or 0b0;local KB="";for eP=0B0_01,cO do KB=KB..x[0B1_0_1_000_00_0][x[1_668](x,RG)];end;return KB;end,[161]=((0X3^0b10_0)%0X3C~=0B1_1_0_01 and((0b101*0b1_0_0+0X3)+(0b1000_0+0X3B))or(0x33+0b110_10_00)),[0B10_10_1_000_110]=function(x,jZ)local Io={[x[0b1_0_000_0_1_1000](x,24,0x4c,66)]=x[0B1_11_11100_1],[x[1_048](x,0B1_100_0,65,0b10000_0_0)]=x[0b101_1_0_111_0_1_1],[x[0b1_00_00_0_1_10_00](x,0X18,0b1_010010,0B1_11001_1)]=0B11_011_0_011_1_0_101_10,[x[1_048](x,0b110_00,0x68,111)]=0b11_0_0_100111101_00,[(x)[0b100_00_0_1_1000](x,0x1_8,0b10_110_11,0b1101_00_0)]=50_663};Io[x[1_048](x,24,0b1_0_0_0_111,0B10_11_111)]=Io;Io[x[0b10_00_001_1000](x,0x18,71,0B101_1_101,0X5_6,0x4E)]=Io;x[0x1_f9]=({})[0B10_1_100_10_1_111_01010_11_1];x[0x5_Bb]=({})[1_435_794];local Cw={[x[0X41_8](x,24,0b1_0_00111,0X47,0b1_110_0_01,0b1110_110,0B11_1_1100,125,96)]=jZ,[x[0X41_8](x,24,0x4_7,0B100_0_111,118,125,111,0B1_1_10001,0B1110_110,0B11_111_00,125,0x6_0)]=function(Ic,Pm,eC)if x[1_312](jZ,Pm)~=nil then x[0X228](Ic,Pm,eC);else jZ[Pm]=eC;end;end};x[0x7a6](Io,Cw);return Io end,[0x5_23]=0b101_0_11_1,[0X18D]=buffer.readu16,[0X5_fe]=function(x,B,E,R,r)local vV=0B1001000;local YF,vc;local d=0B1001000;local f=0x4_2;while true do if((vV+f)==(d+f))then YF=x[0X4_d](vc or 0b1111_001_0,0x80_36);vV=0X8a;elseif((vV-f)==d)then vc=x[0b11_101_101_000](YF or 32_822,0Xf2);break;else break;end;end;if x[0X4_d](YF,vc)~=0B1_10010 then return end;local lr,nQ,Pq;for r=0X1,0B1 do nQ=x[0X363];if(x)[0XeD](x,nQ)==x[0B1_00_0001_1000](x,0b11_0_00,126,0b1_1_0_110_1,0B11_101_1_0,0X7b,108,0b1_11_00_01,0B1_110111,0X76)then Pq=nQ();else Pq=nQ;end;lr=x[0b1_0_0_1101](lr or 0B1,Pq and 0B11 or 7);nQ=x[0X7_C1];if x[0Xe_D](x,nQ)==(x)[0b1_000_001_10_0_0](x,0X1_8,0B1111110,109,0x76,0B1111011,0X6c,0X71,0x77,0b1_1_10110)then Pq=nQ();else Pq=nQ;end;lr=x[0b10_01_101](lr or 0x2,Pq and 0X4 or 0b1000);nQ=x[0B10_0_0110010_1];if(x)[0Xed](x,nQ)==x[0X418](x,0b11_00_0,0b1111_110,0b1_1_01101,0B1110_11_0,123,0X6C,113,0B11101_11,0X76)then Pq=nQ();else Pq=nQ;end;lr=x[0X4_d](lr or 0b11,Pq and 0B1_0_1 or 0B1_001);nQ=x[0X2_d_2];if x[0B11_1_01101](x,nQ)==x[0b10000_0_110_00](x,0B1_100_0,0B1_111110,0x6_d,0B1_1101_1_0,0B111_1011,0B1_1_01100,0b1_110_0_0_1,0X7_7,0b111_01_10)then Pq=nQ();else Pq=nQ;end;lr=(x)[0b10_01_101](lr or 0b100,Pq and 0x6 or 0b1010);nQ=(x)[0b1_1_0_1010011];if x[0B11101_1_0_1](x,nQ)==x[0X418](x,0X1_8,0B1_1_111_10,0b110110_1,0B1_11_0110,0x7b,108,0x71,119,0b111011_0)then Pq=nQ();else Pq=nQ;end;lr=x[77](lr or 0b101,Pq and 0X7 or 0b10_11);nQ=x[0x7_8B];if x[0B111_01_101](x,nQ)==(x)[0X418](x,0x18,126,0B110_11_01,118,0X7_B,0x6C,0X71,0b1_110_111,0b1110110)then Pq=nQ();else Pq=nQ;end;lr=(x)[0X4d](lr or 0x6,Pq and 0X8 or 0b11_00);end;return lr end,[0B111011101_1]=function(x,E,B,r,A)if(((31<0X48 and 0x48<0B11_1_011_1)or(0X2E37~=11_870)))then local yP=0X32;local Ch,Td;local o=0x32;local L=0b111_1001;repeat if((yP+L)==(o+L))then Ch=x[1_753](Td or 0xD,0b100111_101_011_000);yP=171;continue;elseif((yP-L)==o)then Td=x[0B10011_01](Ch or 0x4f58,0xd);break;else break;end;until false;if x[0x4_D](Ch,Td)~=13 then return end;return{(function(Ep,Ed)local gX={};local Ut=x[0x6_D9]((E)*0x1_1+1,255);local Om=(x)[0x6d_9]((E)*0B11111+0B1,255);for bn=0x1,#x[0b1110_110_0_01]do local wA=x[0X6D9]((E)+bn*Ut+(bn%0B1_11_1_1011)*Om,255);gX[bn]=(x)[0X6_D_9](x[77](x[0X4D](x[0B1_11_01_1_0001][bn],x[0b11_10111_11_00]),wA),0xFf);end;return{gX,(x)[77](0Xd9,x[0X6_D_9]((E)+253*Ut+(0B1_1_11110_1%0Xf_B)*Om,0B1111_1_1_11)),x[77](((148)-(6)),x[0B110_1_10_110_01]((E)+0B1_1111110*Ut+(254%0b1111_101_1)*Om,0B1111_111_1)),x[0X4d](0b1001_0_00,x[0B11011011001]((E)+0XF_f*Ut+(0b1111111_1%0b1111_10_1_1)*Om,255))};end)(0B1_010_0_0_1,0b1_0_101),x[0xe_F](x[1_048](x,x[0x7_7c],(x)[0B1110010_1_1_00](x[49])))};else return(x)[0b111_0_11_01000](Ch or 0B1100_1_0,0B101010_11)end;end,[0B1_0_1_10111_10_1]=math.random,[0B1000_11_10_0_0]=string.sub,[0X5C1]=function(x,Ze,Ze,SD,ej,pg,ho,PW)local dw={};dw[0B1001100111101]=(((0X138_B+0B11_10110>118)and 0X7_C_C or 0x7_c_D));return dw[((0X137A)-0x17-0B1_0_0_110)]end,[0B110_101_11000]=function(x,OM,Jg,UH,hV,jB,cl,hO,qX,GJ,Mu)qX=qX or 0x0;GJ=GJ or 0;Mu=Mu or 0b0;local pa=(x)[0B110_11_0_11001](((0x9d12)-(50))+Mu*0B1101_110+qX*0B1001100_1+GJ*((0B1_10_0_01_00)+(0X3_2)),0XfF_f_F);OM[21]={jB and jB+pa+4_250,UH+pa+((0x4243)-(0b11100)),Jg+pa+((32_713)-(0X2c)),hV and hV+pa+0xC49B,cl+pa+((0b110_100_1_10101)+(12)),hO,x[0B100110_1](pa,0B1_01_10011_0001_0)};end,[0x6_19]=function(x,lC)local Yt=0B10_0;while Yt<0x1c_eA do local Rf=x[285](lC,Yt);Yt=Yt+0B0_01;if Rf==0X3 then Yt=Yt+0X1;elseif Rf==0XE_e then local dY=x[285](lC,Yt);Yt=Yt+0b1+dY;elseif Rf==0b110_11_1 then local dY=(x)[0b11110_10](lC,Yt);Yt=Yt+0b100;if dY~=0b111_0000_111_111 then return nil end;local Ij=x[0b111011011_1](dY);x[0X4_17](Ij,0x0,lC,Yt,dY);return Ij;else return nil end;end;return nil end,[0b11_0_1_001_1001]=function(x,vo)local IS=vo.vM;x[0x201](IS,0x0,x[1_601](x,vo));x[0B10_000_00_001](IS,0X1,x[1_601](x,vo));x[0X201](IS,2,x[0x6_4_1](x,vo));x[0B10_0_000000_1](IS,0B1_1,x[0B110_010_00_00_1](x,vo));x[0B10_0_000_0001](IS,0B10_0,(x)[0x641](x,vo));x[0B1000000_001](IS,0X5,(x)[1_601](x,vo));x[0b10_0_0000001](IS,6,x[0X641](x,vo));x[513](IS,0B1_1_1,x[1_601](x,vo));return(x)[0x6_6_C](IS,0x0);end,[0B1_00_110_01101]=math.huge,[0X4_aa]=function(x,W,B,A,E)local bh,QJ,pc,cW;local Tn=0x49;repeat if Tn==0X4_9 then bh=W[0x6]or 0B0;QJ=W[0B111]or 0b0;md=x[0b10_011_01](bh or 0b0,QJ or 0b0);Tn=((0b10010001)-0x6-0B1_1_1_1);continue;elseif Tn==((0B10010001)-6-0b1111)then pc=W[((0B11_1001)-0b1010_00-0b1100)]or 0b0;cW=(pc+QJ)%((0b100_10_1100)-(0B1_011_00));break;else break;end;until false;return(x)[0B100110_1](bh,cW)end,[279]=function(x,XH,NY,Gd,zh)local yl,AE,ef;x[0X4F2].Mv=XH;local Zk=x[1_753](0X36,215);local on={};for Et=0X1,((0x1_14)-0b11_0-0x3d)do local bF=x[0X7d](x,x[0X3_55],0B0+Et);on[Et]=x[0x4_0e](x[285](x[0X4_F2].Mv,bF-0B1)%0x1_0_0);end;x[0B1_111_11_001]=x[0X1_8e](on);local VN={};for Qd=0x1,0B11_01_0_001 do local Yf=(x)[0b11_111_01](x,x[0x355],0b1111_01111_1_01_1+Qd);VN[Qd]=x[0B100_0_0_0_011_10](x[0B1000111_01](x[0B1_0_0_1_1_110_0_10].Mv,Yf-1)%0B1000000_00);end;(x)[0X5Bb]=x[0b11_0_001110](VN);local Xs={};for Ru=0X1,((0X14)+(0x2C))do local IM=(x)[0b111_11_01](x,x[0b110101_0101],((0B11_1_0_00_1_1)-(18))+Ru);Xs[Ru]=x[0b100_0000_1110](x[0b100_011_1_01](x[1_266].Mv,IM-0B1)%0X1_00);end;x[0B110_1_0_00110_0]=x[398](Xs);local Gh={};for Ci=0x1,0x40 do local Jm=x[0B111_110_1](x,(x)[0b11_01_010101],((0x1e58)-0B1000000-0x1_d)+Ci);Gh[Ci]=x[0X4_0e](x[0x11_d](x[1_266].Mv,Jm-1)%0X100);end;x[1_195]=x[0x18_e](Gh);local Mz={};for sW=0X1,((0x83)-0b1_100-0X37)do local zQ=x[0x7D](x,x[0B1101010_101],((0B1_1_1_10_10010001)-(0X1_6))+sW);Mz[sW]=(x)[0B1000000_1_1_10](x[285](x[0B1001_11_1_0_010].Mv,zQ-0X1)%256);end;x[0B11_101001_01]=x[0x18E](Mz);local Jy={};for kl=0x1,0B10_0_00_0_0 do local pL=x[0B1111_101](x,x[0x3_55],7_867+kl);Jy[kl]=x[0B1_0_000_0_01110](x[0B10_001_11_0_1](x[1_266].Mv,pL-0X1)%0B1_00000000);end;(x)[0X6_78]=x[0x18_E](Jy);local NA={};for Kv=0b1,0X4_0 do local jQ=x[0x7D](x,x[853],0B1_111_1_1_10_0110_0+Kv);NA[Kv]=x[0x40e](x[0B10_00111_01]((x)[0b10_0_11110010].Mv,jQ-0b1)%0B1_00_0_0_0000);end;x[0b1110_0100_10]=x[0X18_e](NA);local Kp={};for Uk=0B1,((115)-0X13-0b1_00_0_00)do local ka=x[0b111_1101](x,x[0x355],((0b10_0_00_00001_0_1_00)+(0B1_1_10_00))+Uk);Kp[Uk]=x[0x40E]((x)[0b100_0_111_01](x[0X4_f2].Mv,ka-0x1)%0x100);end;x[0b101010110_11]=x[0X18E](Kp);local qc={};for uc=0b1,((0X4_b)-(0B10_11))do local GR=x[0x7d](x,x[853],((7_765)-(26))+uc);qc[uc]=x[0X40E](x[0x11d](x[0b1_00_1_111_00_10].Mv,GR-1)%256);end;x[0B11_01_010111_1]=x[0X18e](qc);local lX={};for FR=0x1,((0b110_10_11)-(0b101011))do local ca=(x)[0B1_1111_01](x,(x)[0X355],8_204+FR);lX[FR]=x[0X4_0e]((x)[0B1000_11_1_0_1](x[0B1_0_0_11_11_0_010].Mv,ca-0B0_01)%256);end;x[0B11_0_000101]=x[0x18E](lX);yl=x[0B1110110111](7_402);AE=0B0;for da=0B0_01,((0x1_cBd)+(0b1_0110_1))do local lU=x[0b1111101](x,x[0x3_55],((0b1_11001_01)+(0x2c))+da);local qF=(x)[0x11d](x[0X4f_2].Mv,lU-0B0_01);if qF~=({})[6_941_870]then x[0b1000_00_00_0_1](yl,AE,(qF)%0X10_0);AE=AE+0B1;end;end;ef=AE;x[0b11_1100_110_1_0]=x[0B1_10_0001_100_1](x,yl);x[0b1_0_011_1100_1_0].Mv=({})[0B11_1100_1_010100_00_0_0000_101];local mV=NY.b(x[0b1_00_1101](Gd or 0x0,#zh),0b1_1_11_11_1_1);x[0x4_f_2].yI=0B10_00111_01_0_1_0;return x[0X4_A8](x,mV)end,[0B1_0110011111]=function()return{[0B11]=((0x4_6)-0X8-0B111_001)}end,[0b101000_01_00]={},[0B10_110_011010]=function(x,...)return{...},x[0B10110_00_00]("#",...);end,[0b1001_00_10011]=string.byte,[0X7_7]=function(x,mr,VK,cB,nI)local EH;local SJ=nI[0x1];local JF,vY,Ny,Im=SJ[0X1],SJ[2],SJ[0b11],SJ[0x4];local gR=#JF;for CN=0B0,0B1000_00_10001_100-0X1 do local Ei=((CN%gR)+0B0_01);local HA=CN+0X1;local wQ=(vY+HA*Ny+(HA%0B11_1_1101_1)*Im)%0b100000_000;local aV=VK.x(JF[Ei],wQ);HA=VK.x(x[285](mr,CN),((cB+0x128_2D_2_29+(HA)*((0B100_1111110001_111)-0X3_A-0X3c))%0B100_00_0000));x[513](mr,CN,VK.x(HA,aV));end;cB=x[0X3_07](x,cB+0B111001001_10101101_1_10_001010_1_110_1+0x2*0X7E63);return x[0x1E8](x,mr,VK,cB,nI)end,[0X3_93]=0B10_1110,[409]=function(x,E,B,W,r,A)if(((0B101_11_0<0B100_0001 and 0b1_0000_01<0X64)or(0b10010111_11_1_1111_0~=0X980B)))then local Wf=0x46;local OR,lW;local M=0b1000_110;local w=0x4_1;repeat if((Wf+w)==(M+w))then OR=x[0x768](lW or 244,0xf_19B);Wf=0b1_0000111;continue;elseif((Wf-w)==M)then lW=(x)[1_753](OR or 61_851,0B1_1110_100);break;else break;end;until false;if x[0B10_0_1_1_0_1](OR,lW)~=0b11_11000100_00_1_0_11 then return end;local Oh=0b1_0011_00;repeat if Oh==0B1_001_100 then jw=x[0x45C](x,x[0B10_0_0_0_001_110]());oj=(x)[0x4_D](((0B100110011_100_01_0)+(0x1C)),((47_179)+(0b11_0010)));Oh=0b10_0_01100;continue;elseif Oh==0x8C then tt=(x)[1_048](x,0B11000,76,112,0X7D,56,0X75,125,0X6c,0X79,108,0B11_1_100_1,0x7a,0x74,0b111_110_1,0X38,0B11_1000_1,0b1_10_1_0_11,0b111_000,116,0X77,0b1111011,0b111001_1,0X7D,0b11111_00);oj=x[0B11_01101_100_1](oj or((0b1_0111000_010_0101_1)+(50)),((0x4_Ce_2)+(0x1C)));if jw~=tt then return x[0b100_1101](((0x10e)-44-0B1_10_110),0X6_D);end;break;else break;end;until false;return 0B10_1_01_1_0_0;end;return x[0B1_0_011_01](0B10101100,((0B1_11_0010)-(0x5)));end,[0B1_1_1100_0]={0B100010,48,0B11_1_1_01,0x7_C,0X33,0X3_1,0b1_000011,0B1_0001_1_0,68,0B1_110_110,0x45,0B1_1_0_0_10},[0x21_9]=function(x)local rK=0x57;local Kr,Eg;local p=0b10_1_0111;local h=0X5_C;while true do if((rK+h)==(p+h))then Kr=x[0b100_11_01](Eg or 11,0XdeC5);rK=0xB3;elseif((rK-h)==p)then Eg=x[0X768](Kr or 0XdEc5,11);break;else break;end;end;if x[0X4_D](Kr,Eg)~=0b1 then return end;return(x)[0B10000001110](x[0B110110110_01](x[0b100_1_101](x[0x523],x[755]),0xFF))..x[0b100000_011_1_0](x[0b1_1_0_11011_001](x[0b10_0110_1](x[0x5_E_1],x[0X2_F_3]),255))end,[0xE_d]=function(x,E,r,A,R)if(((0B11_111<0x3c and 0x3C<79)or(55_847~=55_883)))then local Tr=0B1_1011;local gv,JY;local J=0x1B;local m=0b1_1_1_0000;repeat if((Tr+m)==(J+m))then gv=x[0B1_1_0_110110_01](JY or 0b11_011110,0X528_C);Tr=0b1_0_001011;continue;elseif((Tr-m)==J)then JY=x[0b1_0011_01](gv or 0X52_8_c,222);break;else break;end;until false;if(x)[0b1_00_11_0_1](gv,JY)~=0xd_E then return end;repeat if Tr~=0x1b then R=x[0x5_36](0B0,139);A=R[x[0x41_8](x,0x1_8,0x6C,0b1_1_00001,0B1_1_01000,0b1_1_11101)];r=A(E);break;else R=x[77](0x1_E,0B1_00_1_0_00_0);break;end;until false;return r;else return 0x1E;end;end,[0b1_01111_1111_1]=function(x,Hd,Hd,CR,TF,zH)local lg={};lg[((0b110001_1_11_011_100)-53-12)]=(((0B1100_01111_0_11+0xa_B>0B10101_011)and 0b1_100100_01111101_1 or 0b11_001_0_0_0_11_1111_0_0));return lg[((0X63D0)-0X24-0x11)]end,[0b10_01100010]=function(x)local vA=57;local SF,pB;local q=57;local D=0X6_b;repeat if((vA+D)==(q+D))then SF=x[1_896](pB or 157,38_100);vA=0b1_010010_0;continue;elseif((vA-D)==q)then pB=x[0B1_10_1101_1_001](SF or 0b1001_0_10_011_0101_0_0,0X9D);break;else break;end;until false;if x[0B1_0_01101](SF,pB)~=0b100_1010_0010000_00 then return end;return(x)[0x40e]((x)[0b11_0_11_01_1001](x[0X4D](x[0b1_11_00_0001],x[755]),0Xf_F))end,[0b10_11_11001_1]=((0B10_1_01+51)*0x5>9 and((0b1_011*0X2+0B0_01)+(9*3+0b0))or(0B11_10111-0X1_7)),[0x2_5e]=function(x,Xw,DO,dN)local gp,vg;if not not DO[((0B11101_1_10)-0b111-0X2_3)]then gp=DO[((0B111_0_1_1_1_0)-0b1_11-35)];else gp=(dN*0B110_1_01_01_0_0_0_11_0_10_0_1+((0B10000_1_0111010000001111)-(0X10)))%((0b100_00_0_00_0000_00000_0011_111_1)-0b11_010_0-0Xb);DO[((0b1_1101_110)-0b111-0X23)]=gp;end;for Ho=41,0b1_1_1_00_0,0b11_11 do if Ho==56 then DO[((0b101_100_00_1)-(0x40))]=select;vg=((0b1_10000_0_01001011)-(0B10_11));break;else DO[((182)+(0x3d))]=type;continue;end;end;repeat if vg==((0B1_10_0_0000_1001_0_11)-(0B10_11))then return vg,Xw,gp;end;if DO[((409)-(0XC))]then while DO[((0X19_9)-(0b11_0_0))]do DO[((0X1_99)-(0XC))]=nil;end;end;until false;return nil,Xw,gp end,[0X4_8_5]=function(x,Dm)if(x)[0B1_110110_1](x,Dm)~=x[1_048](x,24,0B1101_100,0B111_1001,0x7A,0B1110100,0x7D)then return Dm end;if Dm[0B111]then return Dm end;Dm[0X7]=true;local Oq=Dm[0b1];if x[0XEd](x,Oq)==x[0X418](x,24,0B1_101_100,0B111_1001,0b1_1_1_1_01_0,0b1110100,0X7D)then local mS=((#Oq*((0B1000_000_0)-(51)))+(((Dm[0b11]or 0B0)*((0b10100_1)-0x1_7-0x5)))+(#Dm*((55)+(0X1_B))))%((352)-64-0B100_000);Dm[((-0X36)+(0b11_1_1_10))]=mS;for rh=0x1,#Oq do local gz=Oq[rh];if x[0B1110_1_10_1](x,gz)==x[0x41_8](x,0X18,0X6c,0X79,122,0b111010_0,0b1111_101)then local bQ=(x)[0X786](x,x[366](x,gz));if bQ then local kO=(rh*((0b1001_11)-(0b11010))+bQ*0b10_10010+(#Oq+0B0_01)*0b1_0100_1000010_110)%0x2;local cy=(rh*0b1101010+bQ*0X4d+(#Oq+0B1)*((0B11_0_10_0_10010_0_00_00)+(0B11110)))%0X100;local XL=((bQ*((0x1_2)+(64))+rh*((0x11)-(0X4))+#Oq+mS)%0B11111_111)+1;local bE=(cy+XL)%0b1_00_000000;gz[0x5]=cy;gz[((-0b1_011_1)+(30))]=XL;if kO==0 then gz[0B0_01]=0X2_7_2;gz[((0xc)-(0B110))]=(bQ+bE)%((0X134)-32-20);elseif kO==0X1 then gz[0b1]=0B10111111_1_01_1;gz[0b1_10]=x[0B1_00110_1](bQ,bE);end;end;end;end;end;local cy=Dm[0b10];if(x)[237](x,cy)==x[0B1_0_000011000](x,0x1_8,0X6C,0B1_111001,122,0b1_1101_00,0X7D)then for rh=0b0,#cy do local kO=cy[rh];if(x)[237](x,kO)==x[0X418](x,24,0X6C,0x79,0b1111_01_0,0x74,125)then x[0X485](x,kO)end;end;end;return Dm end,[0B11110100110]=setmetatable,[0x16_0]=select,[0X7c2]=function(x,zZ)local Dn,Wc=0b0,1;while true do local dP=x[0X6_41](x,zZ);Dn=Dn+(dP%((0b10_1_0_1_1_0)+(0b1010_10)))*Wc;if dP<((0XC_d)-0X1_7-0B1_1_01_10)then break;end;Wc=Wc*((0XB_6)-(0b110110));end;return Dn;end,[0x4bc]=function(x,...)return{[0B0_01]={...},[0X2]=x[0X1_60]("#",...)}end,[108]=0x3e,[0b1_01_1_011_10]=function(x,fE)local qT=fE[0x15];if not qT then return fE[0b1]end;local yH=x[77](qT[0b111],((0B1_01_10_0_1111_0_0_0)-(0b10_110)));local vr=fE[0X1];if vr then return vr end;vr=qT[0x3]-yH-0X7f_9_d;return vr;end,[0X728]=function(x,dA,dA,WG)local NF={};NF[((0B110_11_0_10_001_0111)-(0x6))]=(((0b1_0_000100101101+0B1100_100>0B1_1_00100)and 22_747 or 0B1011_000_11_01_11_00));return NF[0X6_D11]end,[0B1_101_0_111]=function(x)local Zb=0B1_11_1;local Yn,Xn;local P=15;local n=0B10_001_11_1;repeat if((Zb+n)==(P+n))then Yn=x[0b110_110_110_0_1]((x)[0XD_2](Xn or 0X6f,2),65_535);Zb=158;continue;elseif((Zb-n)==P)then Xn=(x)[0X138](Yn or 0B10011000_0010_00_00,0B0_01);break;else break;end;until false;if x[0B1_00_110_1](Yn,Xn)~=354 then return end;return x[0X40e](x[0x6D_9](x[77]((x)[0B1_11101_01],x[0b101_1110_01_1]),0b11_11_1_111))..x[0b1000_00_01110](x[1_753](x[0x4_D](x[1_152],x[0x2f_3]),0xfF))end,[0B110_1_1_1_0_01]=function(x,DX,lc,kP)kP=kP or{};if lc==38 then kP[0b110_0_1]=error;else kP[25]=pcall;end;kP[0b1101111]=nil;DX=nil;return lc,DX,kP end,[0X424]={0b1100001,0X5_0,0B111_0_11,47,0b1_00101_0,0b11_0_100,57,0b11_0110_0,0B1_1000_0,0B100010,0x37,62,0b10_1001_0,0B1001110,0X2_0,0X4_B,0b1010011,0B1_1_1_0111,0x60,0X58,0B1001_0_0_0,0X2b,0X2_D,0X68,33,0B1_101111,0b1_01_1_101,0B111110_1,0B1011001,0B1_0010_0,0b1_00_11_01,0x5B,0B1_101_0_1_0,0b11_01_1_0,0X25,0B110_011,0b110_001_0,0x2a,0B1000_001,0B10_1000,0X7C,110,38,0B11_1_101,84,0B1010_111,0B1_1100_00,0x4_f,0B10_01_10_0,0B110110_1,0B101_1100,0b1110_001,0B10_0_1001,0b10001_1,0x46,0b10111_11,0x73,0x5_e,0b101001,0x75,0b11_01_01,0x56,0x7e,0b11010_01,0X78,0X6b,0b10_0_111,0B10_00_000,0X5_5,0b10110_0,0b100_011_1,0X76,0B11101_00,0x3C,0X2E,0B1_010001,49,0X4_2,0b11_00_10,0x72,0b111101_0,0b11_1_1111,0X79,0B1011_010,0B11_1_1_01_1},[0X78_6]=function(x,E,c,R,r)local aP,PY,Fi;local eE=E%0X4;Fi=x[0x4d](E or 0X0,((0x9_4)-0B1_11_0-0B101101));if eE==0B0 then aP=x[0B111_0_0_10010];PY=170 elseif eE==0x1 then aP=x[0X3a5];PY=178 elseif eE==0X2 then aP=(x)[0B1_001010_1_01_1];PY=0x4_c elseif eE==0b11 then aP=x[0X18_5];PY=((0B1100_0010)-(0X1f))end;local CQ=x[1_171](aP,(E-eE)/0X4+0B0_01);if not CQ then return nil end;Fi=x[1_753](Fi+eE,((0x160)-50-0X2_F));CQ=CQ-PY;if CQ<0x0 then CQ=CQ+((0B1_001_00100)-(0X24))end;return CQ end,[0x1_4_9]=function(x,E,B,W,r,A)if(((0B10_1100<0x46 and 0B1_0_001_1_0<0B1_10_1011)or(44_724~=0b10101_1_1_01_10_01_001)))then local rG=0x51;local XD,Hw;local _cbc=0X51;local _48a=0B1100101;repeat if((rG+_48a)==(_cbc+_48a))then XD=(x)[0b11_0_11_011_0_01](Hw or 0x2_6,0X6FF1);rG=182;continue;elseif((rG-_48a)==_cbc)then Hw=x[0B10_0_11_01](XD or 28_657,0x2_6);break;else break;end;until false;if x[0X4D](XD,Hw)~=0B10_0_110 then return end;local fr=0X15;repeat if fr==21 then jv=x[0B1100_01_01_1_0_0][(x)[0X41_8](x,0X1_8,0X7A,0x61,0b11_01_100,0x7d)];yJ=x[0X536](jv);mY,tM=x[0x35](x[0b1010_110_1110],jv,yJ);Dj=x[77](0B11_1_10001_10_1_10010,0xb_26_1);fr=0X86;continue;elseif fr==0b100_0_0110 then Qo={0x10,0x5,0b11_0_10_000,0X80,0b1010_101,23,0Xd_f,134,0B1_000,78,0b1_10_01_1_1_0,0B10_0_01_101,0x45,0B100,0Xc6,0x9C,7,5,0b1_1001101,133,0b10_011_01,5,196,0xC_0,0x7a,0b110000,0xe_B,0B101_10_101,0x6_9,0X35,0B111_101_11,181,0x72,0x38,0b1110_0001,244,124,0B110100,0xb1,183,0B110_0110,0x3_8,0xE8,0Xa2,0B101011,0b100101,0B111010_11,0b10_1000_10,98,0B100101,0xf1};WY="";for tc=0b1,0x33 do vm=x[0X6_D9](248+tc*((0b11011110)-0B1_11_01-0B11010)+(tc%0b1111101_1)*0B1001_1000,0b1_1111111);WY=WY..(x)[0X40_e](x[0X4D](Qo[tc],vm));end;fr=0b111_101_10;continue;elseif fr==0B11_110_1_10 then Kb=x[0X6d9](Dj or 0xb2_6_1,0b1_1110001_1_0110010);if mY or tM~=WY then return x[0b100_1_1_0_1](((0X10a)-62-32),0b1_10_11_01);end;break;else break;end;until false;return 0b1010_1100;end;end,[0B10111_0_10101]=function(x,OV,rB,Fz,RH)local jF=x[0x4Fc];if not jF then local Zz=x[0X6D_9](0B10_11,0b11_1_0_10_10);jF=function(x,OV,rB,Fz,RH)local K=RH;local sz,Tf,Vo,kJ,PX,Hi,nW,cY,zp,ti,dg,QB,Fg,IQ=0B0_01,0x6_3,0B1_1_0_1_001,((0x24)+(0B1_11011)),0x0,((204)-0b110100-0x2C),((0b10111_0_10)-(0b111001)),0B1_10111_0,0B1110_10_0,((0B10_1_011)-(0b10100_1)),((0B10111_11)+(0b10)),((0X2a)-17-0B1010_1),0b1_1,0B1_10010_1;local function C(e,a,h)local N,B,I,G,f,l,n;N=e[sz];B=e[ti];I=e[Fg];G=e[((48)-19-0b11000)];f=e[0x6];l={};n=PX;local O=function(o)n=n+sz;local e=n*0x16D3+0B10111_1_01_11_011_110000_1_110_1_10_11_1_0;l[e]=o;local e=e+0x1_4A74906;return function(...)local e=l[e-0b10100_1_010_0111010_010_01_000_0_01_10];return e(...);end;end;local n=0X4_C9_2595;local e={[0B1010_0_011100_00_0_1101010010_1000_11]=function(e,...)return e(...);end;[((487_494_923)-(0B1000_00))]=function(e,...)local e=e;return e(...);end;[((0b10101011010111_1_1_011_111111_11_11)+(46))]=function(e,...)if e==e then return e(...);end;return e(...);end;[((0B10_0011100_111_111_0111_1_1_111_0111_0_1)+(0B10_00))]=function(e,...)local n=M('#',...);if n>=PX then return e(...);end;return e(...);end;};local o={0x28_e0_D_4a3,((0b1_1_1010000_11_10_1001010010111110)+(0B10110_1)),359_395_373,0B1_0_0_011_1_0011_1_111_0111_11111_10_01_01};local d=function(l,...)n=(n*532_059+0X9752E)%0X7f_ffF_fff;local n=o[(n%QB)+sz];return e[n](l,...);end;local i,X,P,s,W,A,c;i=h[t(zp,0B111_100_1,((0xA6)-45-0x9),IQ)];X=h[t(0X6_7,IQ,zp,((0B10011_0_10)-(0B101_1_01)),IQ,zp,dg,zp,dg,((0x7_7)-(0b10101)),Hi,IQ)];P=h[t(cY,IQ,120,zp)];s=t(0x66,0b11101_0_1,cY,Tf,zp,Vo,((0b1_0_1_1_00_0_0)-0X2_F-0B100_1_0),cY);W=t(zp,dg,0X62,Hi,IQ);A=t(kJ,kJ,Vo,zp,IQ,0x72);c=t(kJ,kJ,Tf,dg,Hi,Hi);local r=function(n,e,o,l)o=n[e];if i(o)==s then return end;l=X(o);if i(l)==W and l[A]then n[e],n[e+sz],n[e+ti]=d(l[A],o);elseif i(o)==W and not(i(l)==W and l[c])then n[e],n[e+sz],n[e+ti]=P,o,nil;end;end;return function(...)local W,P,X,A,o,t=N,B,I,K,G,-sz;local c,l,s,i,e;l={...};s=M('#',...)-sz;e={};for n=PX,s do if(n>=X)then c=c or{};c[n-X]=l[n+sz];else e[n]=l[n+sz];end;end;local M,n,l;M=s-X+sz;while true do n=W[o];if not n[((0b1_10_0_1_1)+(0X4))]then x[578](x,n);end;l=n[((0X92)-0B1_1010_0-0b110)];if not l then l=x[0X61_2](x,n);end;if l<=0B10101_0 then if l<=0xf then if l>0B1_001 then if l>0xC then if l>((45)-0B10000-0x10)then if l>14 then e[n[ti]]=n[Fg];o=f[o];n=W[o];if not n[((0x3_3)+(0X4))]then x[0b1_00_100_0_01_0](x,n);end;e[n[ti]]=e[n[Fg]];else e[n[ti]]=n[Fg];end;else do return end;end;else if l==0b11_00 then local l=n[ti]e[l]=d(e[l],Z(e,l+sz,n[Fg]))elseif l==((-17)+(27))then local n=n[ti]e[n]=d(e[n])else local f,d;f=n[ti];d={};if i then for n=sz,#i do local t=i[n];for i=PX,#t do local n,o,l;n=t[i];o=n[sz];l=n[ti];if o==e and l>=f then d[l]=o[l];n[sz]=d;end;end;end;end;end;end;else if l>0X5 then if l<=0b110 then local l,n=n[ti],n[Fg];e[l]=n;else if l==0B1_000 then e[n[ti]]=h[n[Fg]];elseif l==0X7 then local l,o;l=n[ti];o=e[n[Fg]];if o then e[l]=o else e[l]=n[QB]end;else e[n[ti]]=a[n[Fg]];end;end;else if l<=PX then e[n[ti]][e[n[Fg]]]=e[n[QB]];else if l>sz then if l>ti then if l<=Fg then local t,d;t=n[ti];d={};if i then for n=sz,#i do local f=i[n];for i=PX,#f do local l,o,n;l=f[i];o=l[sz];n=l[ti];if o==e and n>=t then d[n]=o[n];l[sz]=d;end;end;end;end;else if l>QB then local l=n[ti]e[l]=d(e[l],Z(e,l+sz,n[Fg]))else e[n[ti]]=e[n[Fg]][e[n[QB]]];end;end;else local n=n[ti];do return Z(e,n,t)end;end;else for n=n[ti],n[Fg]do e[n]=nil;end;end;end;end;end;else if l>((12)+(0b1_000_0))then if l>0b10_001_0 then if l>0B10_0101 then if l>0X29 then e[n[ti]]=e[n[Fg]]*n[QB];else if l>0X28 then local l,f,o;l=n[ti];f,o=A(d(e[l]));t=o+l-sz local n=PX;for l=l,t do n=n+sz;e[l]=f[n];end;else if l==0B1001_1_1 then e[n[ti]]=n[Fg]-e[n[QB]];elseif l==((0x5f)-(0B111_0_01))then local l,n=n[ti],n[Fg];e[l]=n;else e[n[ti]]=#e[n[Fg]];end;end;end;else if l>((23)+(12))then if l==0X2_4 then e[n[ti]]=e[n[Fg]]*n[QB];else if(e[n[ti]]~=n[QB])then o=f[o];else o=n[Fg];end;end;else local n=n[ti];do return Z(e,n,t)end;end;end;else if l>((0B10_00_1_1_1)-(0X29))then if l==0X1f then e[n[ti]]=e[n[Fg]][e[n[QB]]];elseif l==((0B1_100_000)-0B10_11-51)then local l=n[ti]d(e[l],Z(e,l+sz,n[Fg]))elseif l==0X2_1 then d(e[n[ti]]);else e[n[ti]]=e[n[Fg]]*e[n[QB]];end;else if l==0x1D then local t,o;t=n[ti];o={};if i then for n=sz,#i do local f=i[n];for i=PX,#f do local n,d,l;n=f[i];d=n[sz];l=n[ti];if d==e and l>=t then o[l]=d[l];n[sz]=o;end;end;end;end;else for n=n[ti],n[Fg]do e[n]=nil;end;o=f[o];n=W[o];if not n[((0x33)+(0b100))]then x[0x2_4_2](x,n);end;e[n[ti]]=(n[Fg]~=PX);end;end;end;else if l<=((4)+(19))then if l>((0B10_010_00)-(50))then local l,t;l=n[ti];t=n[QB];if t==sz then e[l+Fg]=d(e[l],e[l+sz],e[l+ti]);elseif t==ti then e[l+Fg],e[l+QB]=d(e[l],e[l+sz],e[l+ti]);elseif t==Fg then e[l+Fg],e[l+QB],e[l+0b10_1]=d(e[l],e[l+sz],e[l+ti]);elseif t==QB then e[l+Fg],e[l+QB],e[l+((0b111110)-0b100_1_0-0x27)],e[l+0B1_10]=d(e[l],e[l+sz],e[l+ti]);else local o={d(e[l],e[l+sz],e[l+ti])};for n=sz,t do e[l+ti+n]=o[n]end;end;e[l+ti]=e[l+Fg];if e[l+Fg]~=nil then o=n[Fg]end;else if l>0B101_0_0 then if l==0b1_010_1 then if(e[n[ti]]~=n[QB])then o=f[o];else o=n[Fg];end;else e[n[ti]]=h[n[Fg]];end;else if l>0B1_00_11 then local l,t,o;l=n[ti];t=n[QB];o=t-l+sz;if o==ti then e[l],e[l+sz]=d(e[l],Z(e,l+sz,n[Fg]))elseif o==Fg then e[l],e[l+sz],e[l+ti]=d(e[l],Z(e,l+sz,n[Fg]))elseif o==QB then e[l],e[l+sz],e[l+ti],e[l+Fg]=d(e[l],Z(e,l+sz,n[Fg]))else local f,o;f={d(e[l],Z(e,l+sz,n[Fg]))};o=PX;for n=l,t do o=o+sz;e[n]=f[o];end;end;else if l>0x1_2 then if(e[n[ti]]<e[n[QB]])then o=n[Fg];else o=f[o];end;else if l<=16 then e[n[ti]]=e[n[Fg]]-n[QB];else if l>0B1_0_001 then local l,f,t,d;l=n[ti];f,t,d=e[l],e[l+sz],e[l+ti];if(t>PX and d>f)or(t<=PX and d<f)then o=n[Fg]else e[l+Fg]=d end;else local l,o,f;l=n[ti];o,f=A(d(e[l],e[l+sz]));t=f+l-sz local n=PX;for l=l,t do n=n+sz;e[l]=o[n];end;end;end;end;end;end;end;else if l<=((0b1011)+(0B110_1))then local o,d,l,f;o=n[Fg];d=o%((0b110111_10)+(0B10001_0));l=math.floor(o/((0x15D)-0x1D-0x40))%0x10_0;f=math.floor(o/65_536);if l==PX then l=t-d+sz else l=l-sz end;local o=e[n[ti]];for n=PX,l-sz do o[f+n]=e[d+n]end;else if l==0B1101_1 then r(e,n[ti]);o=n[Fg];elseif l==0b1_11_0_0 then e[n[ti]]=e[n[Fg]]+e[n[QB]];elseif l==0X19 then local n=n[ti]e[n]=d(e[n],Z(e,n+sz,t))else for n=n[ti],n[Fg]do e[n]=nil;end;end;end;end;end;end;else if l>dg then if l>((144)-(0b10011))then if l<=((186)-(0b110_101))then if l>0x82 then if l>((0x9_8)-(0B10_1_01))then if l>((0B1110_0101)-0b11_001_0-0X2F)then local l,f,o;l=n[ti];f,o=A(d(e[l]));t=o+l-sz local n=PX;for l=l,t do n=n+sz;e[l]=f[n];end;else e[n[ti]]=e[n[Fg]][e[n[QB]]];end;else if(e[n[ti]]==e[n[QB]])then o=f[o];else o=n[Fg];end;end;else if l>nW then e[n[ti]+PX]=e[n[Fg]+PX];else if l==nW then e[n[ti]]=e[n[Fg]];elseif l==((0xc_d)-0x12-0x3D)then e[n[ti]]=e[n[Fg]]*n[QB];elseif l==((0Xa4)-(0X25))then local l,t;l=n[ti];t=n[QB];if t==sz then e[l+Fg]=d(e[l],e[l+sz],e[l+ti]);elseif t==ti then e[l+Fg],e[l+QB]=d(e[l],e[l+sz],e[l+ti]);elseif t==Fg then e[l+Fg],e[l+QB],e[l+5]=d(e[l],e[l+sz],e[l+ti]);elseif t==QB then e[l+Fg],e[l+QB],e[l+0b10_1],e[l+0B1_10]=d(e[l],e[l+sz],e[l+ti]);else local o={d(e[l],e[l+sz],e[l+ti])};for n=sz,t do e[l+ti+n]=o[n]end;end;e[l+ti]=e[l+Fg];if e[l+Fg]~=nil then o=n[Fg]end;else e[n[ti]][e[n[Fg]]]=e[n[QB]];end;end;end;else if l<=((0XEb)-55-0X2a)then if l<=((0XB_A)-0b1_1001-0x1_A)then if l>((0xa9)-(0X23))then e[n[ti]]=#e[n[Fg]];else if(e[n[ti]]~=e[n[QB]])then o=f[o];else o=n[Fg];end;end;else if l==((0x78)+(0B10_001))then if not e[n[ti]]then o=f[o];else o=n[Fg];end;elseif l==((0xAe)-(0X2_4))then e[n[ti]]=e[n[Fg]]%n[QB];else if e[n[ti]]then o=f[o];else o=n[Fg];end;end;end;else if l<=150 then if l>((0X9f)-(0B1_1_0_1))then if l>((218)-0B100_11_1-0x1f)then if l>0b10010101 then e[n[ti]][n[Fg]]=e[n[QB]];else if(e[n[ti]]==e[n[QB]])then o=f[o];else o=n[Fg];end;end;else if l>((160)-(0xd))then local l=n[ti]e[l]=d(e[l],Z(e,l+sz,n[Fg]))else e[n[ti]]=h[n[Fg]];end;end;else if l>0x90 then if l==145 then local l,f,o;l=n[ti];f,o=A(d(e[l],Z(e,l+sz,t)));t=o+l-sz local n=PX;for l=l,t do n=n+sz;e[l]=f[n];end;else e[n[ti]]=e[n[Fg]]%n[QB];end;else if l>0B1_000_1_0_11 then if l>142 then if l==143 then if not e[n[ti]]then o=f[o];else o=n[Fg];end;else local l,f,o;l=n[ti];f=n[QB];o=f-l+sz;if o==ti then e[l],e[l+sz]=d(e[l],Z(e,l+sz,t))elseif o==Fg then e[l],e[l+sz],e[l+ti]=d(e[l],Z(e,l+sz,t))elseif o==QB then e[l],e[l+sz],e[l+ti],e[l+Fg]=d(e[l],Z(e,l+sz,t))else local o,n;o={d(e[l],Z(e,l+sz,t))};n=PX;for l=l,f do n=n+sz;e[l]=o[n];end;end;end;else if l>0X8_C then if l>0X8D then local l,o,f;l=n[ti];o,f=A(d(e[l],Z(e,l+sz,t)));t=f+l-sz local n=PX;for l=l,t do n=n+sz;e[l]=o[n];end;else e[n[ti]]=e[n[Fg]]*n[QB];end;else local t,d,l;t=P[n[Fg]];l={};d=Y({},{__index=function(n,e)local e=l[e];return e[sz][e[ti]];end,__newindex=function(o,e,n)local e=l[e]e[sz][e[ti]]=n;end;});e[n[ti]]=O(C(t,d,h));for d=sz,n[QB]do o=f[o];local n=W[o];if not n[((0B1_1_0_011)+(0x4))]then x[578](x,n);end;if x[0X612](x,n)==nW then l[d-sz]={e,n[Fg]};elseif x[1_554](x,n)==((116)-0b10100-0B101_0_0_0)then local e={e[n[Fg]]};l[d-sz]={e,sz};else l[d-sz]={a,n[Fg]};end;i=i or{};i[#i+sz]=l;end;end;end;else e[n[ti]][e[n[Fg]]]=e[n[QB]];end;end;end;else if l>0XA1 then if l==0Xa2 then e[n[ti]]=e[n[Fg]]*e[n[QB]];else e[n[ti]]=(n[Fg]~=PX);end;else if l>0X9_D then if l==0xa0 then e[n[ti]]=(n[Fg]~=PX);elseif l==0B10_01_1_1_1_1 then local n,l=n[ti],n[Fg];e[n]=e[l];elseif l==161 then e[n[ti]]={};else e[n[ti]]=(e[n[Fg]]//n[QB]);end;else if l<=0x9_a then if l<=((0XA_B)-(19))then if l>((0x6_6)+(49))then local t,o;t=n[ti];o={};if i then for n=sz,#i do local f=i[n];for i=PX,#f do local l,d,n;l=f[i];d=l[sz];n=l[ti];if d==e and n>=t then o[n]=d[n];l[sz]=o;end;end;end;end;else if e[n[ti]]then o=f[o];else o=n[Fg];end;end;else if l>((0B1_110100)+(0x25))then h[n[Fg]]=e[n[ti]];else e[n[ti]]=(n[Fg]~=PX);end;end;else if l<=((215)-0B100111-0x15)then if(e[n[ti]]<e[n[QB]])then o=n[Fg];else o=f[o];end;else if l==0b1001110_0 then e[n[ti]][e[n[Fg]]]=e[n[QB]];else e[n[ti]]=a[n[Fg]];end;end;end;end;end;end;end;end;else if l>0X7A then if l==0b1111100 then e[n[ti]]=e[n[Fg]]*e[n[QB]];elseif l==((0B101_010_10)-(0x2f))then local l,f,o;l=n[ti];f,o=A(d(e[l],e[l+sz]));t=o+l-sz local n=PX;for l=l,t do n=n+sz;e[l]=f[n];end;else local l=n[ti]e[l]=d(e[l],Z(e,l+sz,n[Fg]))end;else if l<=((0B1_0101_0_1)+(0B1_000_11))then if l<=((0B10_1_0_0101)-0x29-0B1001)then if l<=Tf then if l>0x62 then e[n[ti]]=e[n[Fg]]^e[n[QB]];else o=n[Fg];end;else if l>Hi then if l<=((0xAb)-(0b111_011))then if l>((0xcD)-0x2B-0b110_1_01)then if l<=cY then e[n[ti]]=e[n[Fg]]*e[n[QB]];else if l==0b11_0111_1 then e[n[ti]]={};else e[n[ti]]=e[n[Fg]]%n[QB];end;end;else o=n[Fg];end;else if l<=((0B10_0_1_1101)-0b11_10_1-0xf)then e[n[ti]+PX]=n[Fg];else if l>0B1_1_10_0_10 then local n=n[ti];do return Z(e,n,t)end;else do return e[n[ti]]end;end;end;end;else if l<=0x6_7 then if l<=IQ then if l>0X6_4 then e[n[ti]]=e[n[Fg]]+n[QB];else local l,t,o;l=n[ti];t=n[QB];o=t-l+sz;if o==ti then e[l],e[l+sz]=d(e[l],e[l+sz])elseif o==Fg then e[l],e[l+sz],e[l+ti]=d(e[l],e[l+sz])elseif o==QB then e[l],e[l+sz],e[l+ti],e[l+Fg]=d(e[l],e[l+sz])else local o,n;o={d(e[l],e[l+sz])};n=PX;for l=l,t do n=n+sz;e[l]=o[n];end;end;end;else if l==102 then if e[n[ti]]then o=f[o];else o=n[Fg];end;else if(e[n[ti]]~=e[n[QB]])then o=f[o];else o=n[Fg];end;end;end;else if l>((0x54)+(0X16))then if l>107 then local l,o,f;l=n[ti];o,f=A(d(e[l]));t=f+l-sz local n=PX;for l=l,t do n=n+sz;e[l]=o[n];end;else if not e[n[ti]]then o=f[o];else o=n[Fg];end;end;else if l<=Vo then if l>104 then e[n[ti]]=e[n[Fg]]+n[QB];else e[n[ti]]=#e[n[Fg]];end;else local n=n[ti];t=n+M-sz;for l=n,t do local n=c and c[l-n];e[l]=n;end;end;end;end;end;end;else if l<=((0B1_00_0_1_0_0_0)-(0b1001_1))then if l==zp then e[n[ti]]=e[n[Fg]]+e[n[QB]];else local l,t,o;l=n[ti];t=n[QB];o=t-l+sz;if o==ti then e[l],e[l+sz]=d(e[l],e[l+sz])elseif o==Fg then e[l],e[l+sz],e[l+ti]=d(e[l],e[l+sz])elseif o==QB then e[l],e[l+sz],e[l+ti],e[l+Fg]=d(e[l],e[l+sz])else local o,n;o={d(e[l],e[l+sz])};n=PX;for l=l,t do n=n+sz;e[l]=o[n];end;end;end;else if l>0X77 then e[n[ti]]=e[n[Fg]]+e[n[QB]];else if l>((218)-0b111001-0x2b)then local n=n[ti]e[n]=d(e[n],e[n+sz])else local l=n[ti];e[l]=e[n[Fg]][n[QB]];end;end;end;end;else if l==((0B1_0_10_1_1_0)+(0b1000_11))then do return end;else local l,f,t,d;l=n[ti];f,t=e[l],e[l+sz];d=e[l+ti]+t;e[l+ti]=d;if(t>PX and d<=f)or(t<=PX and d>=f)then e[l+Fg]=d;o=n[Fg]end;end;end;end;end;else if l<=((0B1001010)+(19))then if l>0B1_0_101_0_0 then if l>0b10_1110_0 then local o,d,l,f;o=n[Fg];d=o%((0B1_0010_000_0)-(0x20));l=math.floor(o/256)%0b1_00_000_00_0;f=math.floor(o/((65_486)+(50)));if l==PX then l=t-d+sz else l=l-sz end;local o=e[n[ti]];for n=PX,l-sz do o[f+n]=e[d+n]end;else if l<=((69)+(0b1_0_1_0_1))then if l>((0x4_5)+(0B10_1_00))then e[n[ti]]=a[n[Fg]];else if l<=0b10_1_0110 then if l==((0x36)+(0X1F))then e[n[ti]]=e[n[Fg]][n[QB]];else local n=n[ti];do return Z(e,n,t)end;end;else if l>0X5_8 then local o=n[Fg];local l=e[o]for n=o+sz,n[QB]do l=l..e[n];end;e[n[ti]]=l;else if l>((0b1_010_01)+(0b1011_1_0))then local n=n[ti];t=n+M-sz;for l=n,t do local n=c and c[l-n];e[l]=n;end;else local n=n[ti];do return e[n],e[n+sz]end;end;end;end;end;else if l==0x5_B then h[n[Fg]]=e[n[ti]];else e[n[ti]]=e[n[Fg]]+n[QB];end;end;end;else if l<=((0B111_1011)-(56))then if l<=((0X2A)+(0x14))then if l>0X3c then if l==61 then e[n[ti]+PX]=e[n[Fg]+PX];else if e[n[ti]]then o=f[o];else o=n[Fg];end;end;else if l>0b11_1_001 then if l>0X3a then if l==0x3b then e[n[ti]]=e[n[Fg]]-e[n[QB]];else do return e[n[ti]]end;end;else e[n[ti]]=e[n[Fg]][n[QB]];end;else if l<=((0X3e)-(0B11_10))then if l<=((-0b10)+(0X30))then if l>((0x4f)-(0B1_00011))then if l>((-0B1_0010)+(63))then for n=n[ti],n[Fg]do e[n]=nil;end;else e[n[ti]]=O(C(P[n[Fg]],nil,h));end;else if l>0b10_1_011 then e[n[ti]]=e[n[Fg]]^e[n[QB]];else local d,t,l;d=P[n[Fg]];l={};t=Y({},{__index=function(n,e)local e=l[e];return e[sz][e[ti]];end,__newindex=function(o,e,n)local e=l[e]e[sz][e[ti]]=n;end;});e[n[ti]]=O(C(d,t,h));for d=sz,n[QB]do o=f[o];local n=W[o];if not n[((0B11_0_011)+(4))]then x[0X2_4_2](x,n);end;if x[0b110_0_0_01_0010](x,n)==nW then l[d-sz]={e,n[Fg]};elseif x[0x6_1_2](x,n)==0b111_0_0_0 then local e={e[n[Fg]]};l[d-sz]={e,sz};else l[d-sz]={a,n[Fg]};end;i=i or{};i[#i+sz]=l;end;end;end;else if l==((18)+(0B1_1_101))then e[n[ti]]=h[n[Fg]];else if(e[n[ti]]~=n[QB])then o=f[o];else o=n[Fg];end;end;end;else if l<=0b1101_0_1 then if l<=((0b1_101000)-0X2_2-21)then local n=n[ti]e[n]=d(e[n],e[n+sz])else if l>((0X6_B)-0X2B-0XE)then if l<=0X34 then if l==0X3_3 then if(e[n[ti]]~=e[n[QB]])then o=f[o];else o=n[Fg];end;else local d,t,l;d=P[n[Fg]];l={};t=Y({},{__index=function(n,e)local e=l[e];return e[sz][e[ti]];end,__newindex=function(o,e,n)local e=l[e]e[sz][e[ti]]=n;end;});e[n[ti]]=O(C(d,t,h));for d=sz,n[QB]do o=f[o];local n=W[o];if not n[((0b11001_1)+(0b10_0))]then x[0X242](x,n);end;if x[0X6_1_2](x,n)==nW then l[d-sz]={e,n[Fg]};elseif x[1_554](x,n)==((0B1_0_001001)-0X31-0b100000)then local e={e[n[Fg]]};l[d-sz]={e,sz};else l[d-sz]={a,n[Fg]};end;i=i or{};i[#i+sz]=l;end;end;else a[n[Fg]]=e[n[ti]];end;else e[n[ti]]=(e[n[Fg]]//e[n[QB]]);end;end;else if l==((0X21)+(0B11000))then local n=n[ti]e[n]=d(e[n],e[n+sz])elseif l==0x3_6 then e[n[ti]]=e[n[Fg]]%n[QB];elseif l==((0b10111_1)+(0B1001))then else do return end;end;end;end;end;end;else if l<=((0B11001_1)+(0XC))then if(e[n[ti]]<=e[n[QB]])then o=f[o];else o=n[Fg];end;else if l==0X41 then o=n[Fg];elseif l==0x43 then o=n[Fg];elseif l==64 then local l=n[ti]d(e[l],Z(e,l+sz,n[Fg]))else e[n[ti]]={};end;end;end;else if l<=80 then if l<=((35)+(0b10_0_011))then if l<=0b1000101 then if l==((0x6_7)-(0x23))then local o,d,l,f;o=n[Fg];d=o%0x100;l=math.floor(o/((264)-(0X8)))%((0B100_1_0_01_10)-(38));f=math.floor(o/0X1_0_000);if l==PX then l=t-d+sz else l=l-sz end;local o=e[n[ti]];for n=PX,l-sz do o[f+n]=e[d+n]end;else e[n[ti]]=e[n[Fg]][e[n[QB]]];end;else local n=n[ti]e[n]=d(e[n])end;else if l<=0b1001_011 then if l<=((0b1001001_1)-0B10000_1-0B10101_1)then local l,t,f,d;l=n[ti];t,f,d=e[l],e[l+sz],e[l+ti];if(f>PX and d>t)or(f<=PX and d<t)then o=n[Fg]else e[l+Fg]=d end;else if l==0X4_9 then for n=n[ti],n[Fg]do e[n]=nil;end;o=f[o];n=W[o];if not n[((0X33)+(0x4))]then x[578](x,n);end;for n=n[ti],n[Fg]do e[n]=nil;end;o=f[o];n=W[o];if not n[((0X33)+(0X4))]then x[0x242](x,n);end;for n=n[ti],n[Fg]do e[n]=nil;end;o=f[o];n=W[o];if not n[((0B11_001_1)+(0B100))]then x[0X242](x,n);end;for n=n[ti],n[Fg]do e[n]=nil;end;elseif l==((128)-0b100101-0B1_0_0_0_0)then local n=n[ti]e[n]=d(e[n],e[n+sz])elseif l==0x4_8 then h[n[Fg]]=e[n[ti]];else local l,f,o;l=n[ti];f,o=A(d(e[l],Z(e,l+sz,n[Fg])));t=o+l-sz local n=PX;for l=l,t do n=n+sz;e[l]=f[n];end;end;end;else if l<=((128)-0b101100-0B101)then if l<=((185)-0b110_011-0B111_00_1)then if l>0X4C then e[n[ti]]=e[n[Fg]]+e[n[QB]];else local o=n[Fg];local l=e[o]for n=o+sz,n[QB]do l=l..e[n];end;e[n[ti]]=l;end;else if l>0b10_01110 then e[n[ti]][n[Fg]]=e[n[QB]];else if(e[n[ti]]==n[QB])then o=f[o];else o=n[Fg];end;end;end;else local l,t,o;l=n[ti];t=n[QB];o=t-l+sz;if o==ti then e[l],e[l+sz]=d(e[l],e[l+sz])elseif o==Fg then e[l],e[l+sz],e[l+ti]=d(e[l],e[l+sz])elseif o==QB then e[l],e[l+sz],e[l+ti],e[l+Fg]=d(e[l],e[l+sz])else local o,n;o={d(e[l],e[l+sz])};n=PX;for l=l,t do n=n+sz;e[l]=o[n];end;end;end;end;end;else if l>0B1_0_1_00_10 then if l>0X5_3 then e[n[ti]][n[Fg]]=e[n[QB]];else for n=n[ti],n[Fg]do e[n]=nil;end;o=f[o];n=W[o];if not n[((0x3_3)+(0x4))]then(x)[0B10_01000_0_10](x,n);end;for n=n[ti],n[Fg]do e[n]=nil;end;o=f[o];n=W[o];if not n[((0b11_0011)+(0B1_0_0))]then(x)[0x242](x,n);end;e[n[ti]]=n[Fg];end;else if l>((0x6B)-(0X1_a))then e[n[ti]]=e[n[Fg]]+n[QB];else e[n[ti]]=e[n[Fg]][n[QB]];end;end;end;end;end;else if l==0x5_e then r(e,n[ti]);o=n[Fg];elseif l==((54)+(0X2A))then local l,f,t,d;l=n[ti];f,t=e[l],e[l+sz];d=e[l+ti]+t;e[l+ti]=d;if(t>PX and d<=f)or(t<=PX and d>=f)then e[l+Fg]=d;o=n[Fg]end;elseif l==kJ then if(e[n[ti]]~=n[QB])then o=f[o];else o=n[Fg];end;else e[n[ti]]=O(C(P[n[Fg]],nil,h));end;end;end;end;o=f[o];end;end;end;local nL=(x)[1_350](x,Fz);local Dz=x[0b1_011_11_00_1_11](x);local Vt=x[0x48](x,nL);x[1_958](Dz,Vt);(x)[0X56_E](C,Dz);return C(x[0B10010000101](x,OV),rB,nL);end;x[1_276]=jF;else local Zz=x[0B10011_0_1](0xB,0B1_1_1_010_1_0);end;return jF(x,OV,rB,Fz,RH);end,[0x36_f]=function(x,r,R,E,B)if(((0b10_1_11*0xB+0B1_1_001)%0xC0~=0b110100_1))then local TW=0X29;local KX,dX;local _mh6=41;local _nou=0x5b;repeat if((TW+_nou)==(_mh6+_nou))then KX=x[0b111_01_1_0_1000](dX or 57,0xb4_8f);TW=0B10_0_00100;continue;elseif((TW-_nou)==_mh6)then dX=x[0B110_11_0110_01](KX or 0b1_0_1_1_0_100_1_000_111_1,0X3_9);break;else break;end;until false;if x[0x4D](KX,dX)~=0b101_101_00_100001_10 then return end;local tC=0x6;local Bc=x[0x40e](0X44,0b10_10111,0b1_000_1_00);local Dh,wh=0x2_9;repeat if Dh==41 then TW=(x)[0x6d9](KX or 61,0X606);dX=(function(Bc)wh=x[0b1_110_11_00111](x,dX or 0x2_1,143);function KX(R)if R==0x0 then return wh[x[0x418](x,x[0b101_0_00_0_1],x[0B111001_01100](x[0B1_00_1_0_1000_00]))](Bc);end;local r=KX(R-0x1);return r;end;return KX(2);end)(Bc);Dh=0xB0;continue;elseif Dh==0xB0 then wh=x[0b110_00_1011_00][x[1_048](x,0X1_8,0X7f,117,121,0x6c,123,0B111000_0)](dX,x[0x4_18](x,(x)[0b1110_1_11_1_10_0],x[0x7_2_C](x[0X78])));KX=x[0b10_01101](TW or 0X6_0_6,0x3_d);Dh=0b1_100_101_0;continue;elseif Dh==0xcA then tC=false;local R={};while true do E=wh();if E==({})[3_542_287]then break;end;B=x[0xeF](E);if B~=({})[0x4_64da8]then R[B]=(R[B]or 0x0)+0X1;if R[B]>0X2 then tC=true;break;end;end;end;break;else break;end;until false;if tC then return 0Xd_8;end;return(x)[0x4_D](0XD8,0B10_00);else return 0b11011_000;end;end,[0b1110_1111000]=buffer.readi32,[604]=function(x,B,R,c,E)if(((0x6<0xf and 0Xf<0X3_C)or(0B1_10_011_11_0_0_10_1~=0X1_9E_8)))then local VI,uz;for Ez=0X2_8,424,0X2_8 do if Ez==0x28 then while true do if Ez==0X2_8 then VI={VI};elseif x[0B100_110_1](uz or 90,0x1E_E)~=0B111100 then break;end;end;elseif Ez==424 then VI=x[0b10_111_1111_10](x,VI or c,E);else break;end;end;return E or 0X28;else return 0X4_6;end;end,[851]=function()return{[0Xa]=((-0b1_1)+(0b1111))}end,[0x35]=pcall,[0X41_7]=buffer.copy,[0b111_011_11]=tonumber,[0x3cc]=0x24,[0x6_e]=buffer.writeu32,[0b1_0_0_1_0_1_0_100_0]=function(x,Lf)local ve=x[0X4a_d];if not ve then local YE=x[0b110110_11001](0B1_01001,202);ve=function(x,Lf)if(((0x1a*0b1_1+0B1_0_0_0_010)%0B11_110_1_1_0~=158))then local Fq,aN=80;local OO=0B10_0_0_1_01;local tv,Rz;local QA=0X4_5;local ci=0x67;repeat if((OO+ci)==(QA+ci))then tv=x[0x6_D_9](x[0xD2](Rz or 0X77,0b10),0xfFfF);OO=0B1010_11_0_0;continue;elseif((OO-ci)==QA)then Rz=x[0b1_00111_0_00](tv or 0x4E_2,0B0_01);break;else break;end;until false;if x[77](tv,Rz)~=306 then return end;repeat if Fq==0b10_1_00_00 then Lf=(x)[0b11011_011001](aN or 0Xef,0xF_3D7);OO=x[0X51B](x,0X59,0xF3D7);Fq=0X68;continue;elseif Fq==0B1_1010_00 then aN=x[0B1_001101](Lf or 0B1_11_1001111_01_0_111,196);if x[1_946]then tv=true;local Gi={Py=x[0x7_9_A],AM=0B0_01,vM=x[0x3_b7](0b100_0),tq=0b11111_1_1_0,jj=x[0B1001_1_01](((0b1_100_011011_0010_01_01110_011_101_01)-(0x19)),x[0b11011011_0_01](x[0b1_10_101_01_01]*((0X10_101_21)-0B0_01-0B111_11),0xf_ff_ffFFF))};x[0X536](0x0)[x[1_048](x,0X18,0B1011100,0X5f)]=x[0X355];x[0x1d_6](x);(x)[0B110_100_1_0111](x,Gi);local mO=x[1_974](x,Gi);x[0x7_9A]=({})[2_186_734];x[0x355]=({})[0B10_111_11001_00_001_0_1_1_11_111];Gi.Py=({})[0B10110_0_10111_01_0001_11101];Gi.jj=({})[0b1_0_000_0_1011_0100110_01_0_0];local tp=function(...)return(x)[0x59a](x,...)end;return x[0x5d5](x,mO,{},x[0B101_001_10_110](0b0),tp)();else tv=false;end;if tv then Rz=x[0b1_001_101](aN or 0XC4,0XE_F);else Rz=x[0B1_10_1_0_1](function()return x[1_307](x,0x5_9,0xf3D_7)end);end;Fq=0Xff;break;else break;end;until false;return Fq;else return Lf;end;end;(x)[0X4aD]=ve;else local YE=x[77](0B1_0_1_001,0b11001_010);end;return ve(x,Lf);end,r=function(r,c,u,R)r[0b1_0101101110]=r[0B1010_0110110]()[string.char(((120)-(5)),101,0B1_11_0100,((141)-(39)),0x65,0b1101110,0b1110_11_0)];for NJ=((15_093-0b100001_10001_111-0b11_0010110011_0)),255 do r[0B101000000][NJ]=r[0B10_00_00011_10](NJ)end;local eK=(r)[0x675](r);return function(...)local mm=eK(...);r=({})[0x87];return mm;end;end,[945]={154,0b100_111_0,0xE4,194,124,0B11_1100_1_1,0B101,0B1110101,99,0Xa7,0B11_11_10,0X64,0Xf6},[0b10_01_1_011_0_1]=function(x)local qn=72;local Tg,aA;local I=0b10_0_1_000;local a=0B10_01011;repeat if((qn+a)==(I+a))then Tg=x[0X768](aA or 0B10_1_0011_1,0Xddc1);qn=0b1_0010011;continue;elseif((qn-a)==I)then aA=x[0X6d9](Tg or 0XD_Dc1,0b1_0100111);break;else break;end;until false;if x[77](Tg,aA)~=0Xd_d40 then return end;return x[1_038](x[0b11011_01_10_01](x[77](x[0X65_D],x[0X2_f_3]),0b111_11111))..x[0B1_0000_00_1_110]((x)[1_753](x[77](x[0X26E],x[755]),0XFF))end,[0b10_1_01111_00_0]=function(x)local al=(x)[0x230];if not al then local eZ=x[0B11_0_110_1_1001](0b11_0_0_11,226);al=function(x)local iR=0B110_100;local gB,WX,ph,Lu,oc,Cb,QK,zT,Xy,LX,SO,np,vK;local pk,EA,gS,Qr,Qc,qq,dz,zN,gm,cm;local aX={};repeat if iR==0x3_4 then gB=x[0X6_d9](WX or 0b1_00_10_0_11,0X9_8BB);Lu=x[0b101_11111_1_1_0](x,0B110_100,0b1110000);pk=x[0X199](x,0X135);if pk==((0XCC)-(0b100000))then pk=x[0b1_0100_1001](x,0x1_35);end;EA=x[0x36f](x,0x9_3,0x9_8_Bb);iR=112;continue;elseif iR==0X70 then gS,Qr=(x)[0B11_01101100_1],x[1_617](x);Qc,qq=(x[0B11_1_01_111](EA)or 0X0),(x[0b11_101_111](Qr)or 0);iR=232;continue;elseif iR==0xE_8 then SO=x[0b11_0_11_011001](((x[0Xef](pk)or 0b0)*0x53)+((x[0XEf](EA)or 0x0)*((-0B1_101_0)+(49)))+((x[0B11_101111](Qr)or 0x0)*0B110111)+0X6_C,0xFF);np=x[1_753](x[0X4_d](x[77](x[0b1101_0010](x[0xE_f](pk)or 0b0,0x5),x[0x1_38](x[239](EA)or 0X0,0B10)),x[0Xd2]((x)[0b1_11011_11](Qr)or 0b0,0X1)),0b1111111_1);vK=x[0B11_0_11_0110_0_1](x[1_896](x[77](x[0B1_11_0_111_1](pk)or 0x0,0xAc),x[1_896](x[0X4d](x[0b1_1_101_111](EA)or 0x0,216),x[0b1001_101](x[0b1_1_1_0_111_1](Qr)or 0b0,0XD_6))),0b1_111111_1);LX=x[0B11_01_101100_1](x[0X4D](x[77](SO,np),((0b1_1_10_1000)-0b1_0_0_0_1_1-5))+vK,0XfF);ph=x[0x5DA](x,LX);zN,gm,oc=ph.zN,ph.gm,ph.iC;cm={b=x[0x6d_9],x=x[77],l=x[0b1_10_10010],r=x[0b1_001_1_1_000],o=(x)[0B111_0110_1_0_0_0]};dz=x[1_896](Qc,qq);Xy=x[0B10_0_110_1](((157)-0X2A-0B1_01_01),LX);aX=oc;iR=0b10011_0101;continue;elseif iR==0b100_1_10101 then WX=x[0b10_01101](gB or 0x98B_b,Lu or 0x93);break;else break;end;until false;return{aX=aX,pk=pk,EA=EA,gS=0X0,Qr=Qr,Qc=Qc,qq=qq,dz=dz,LX=LX,vK=vK,Xy=Xy,zN=zN,gm=gm,iC=oc,cm=cm}end;x[560]=al;else local eZ=x[0X4D](51,0Xe2);end;return al(x);end,[0x490]=function(x,nk)if(((0b11*0X2+0x3_1)%0X47~=0X3B))then local jz=0B11110_1;local Ds,Sq;local lG=0B111_10_1;local cG=62;repeat if((jz+cG)==(lG+cG))then Ds=x[1_753](x[0B1_1010010](Sq or 132,0X2),65_535);jz=0X7_b;continue;elseif((jz-cG)==lG)then Sq=x[0b1_00111000](Ds or 0b1_0_0001111011_1010,0B1);break;else break;end;until false;if x[0X4d](Ds,Sq)~=792 then return end;local Ft=0B11_110_1;repeat if Ft==0B11110_1 then Ds=x[1_753](Sq or 0b111001_10,0xe61_0);Ft=0B111_1011;continue;elseif Ft==0x7b then Sq=(x)[0B10011_0_1](Ds or 0B1_1100_110_0001_00_0_0,0b11_0_1110);Ft=0X1_16;continue;elseif Ft==0b10001_0110 then break;else break;end;until false;return x[0b111_01_10_10_0_0](Ds or 0B1101110,Sq or 0b10_001001);else return x[0X6D9](0b111_0_0_110_00_010000,230);end;end,[0B10_01111_01_10]=function(x,Cf,Cf,Wd,TQ,GG)local Cq={};Cq[0b1_1111_1_111_00111_1]=(((0B1_11_1_100111100+0b1_11_01_01_1>0b1_1_10_101_1)and 0X7D_44 or 0X7_D45));return Cq[0x7_FC_F]end,[0X1_e8]=function(x,Up,tD,Bv,ZX)local nw;for fI=0X0,0B1_000_00100_01_100-0B0_01 do local GT=tD.x(x[0X11_D](Up,fI),((Bv+0x4F_FC_20_04+(fI+1)*0B11_11100111101)%256));x[0x201](Up,fI,tD.b(tD.o(tD.r(GT,0X3),tD.l(GT,0x5)),0XFf));end;Bv=x[0X30_7](x,Bv+((886_511_347)-(0b10_1_0))+0b1_1*((0x2aF4)-0B110001-0x31));return x[0x1_17](x,Up,tD,Bv,ZX)end,[1_670]=function(x,ZA,Th)local Fr=x[0b1_11011_0_1_11](Th);for OP=0B0,Th-0B0_01 do x[0b1_0_0_00_000_01](Fr,OP,x[0X684](x,ZA));end;return Fr;end,[0X7_67]=function(x,B,r,E,A,c)if(((0X26<0X47 and 0X4_7<0X5_E)or(0B1_110_101110_11_011_1~=0xE_b_C6)))then local Ea=0B1_1011;local LQ,sX;local C=0x1b;local H=106;repeat if((Ea+H)==(C+H))then LQ=x[0b110_1_1_01_10_01](x[0xD2](sX or 0b1,2),0Xf_f_Ff);Ea=133;continue;elseif((Ea-H)==C)then sX=(x)[0B100111000](LQ or 0b111_1_011_0101_101,1);break;else break;end;until false;if x[0x4D](LQ,sX)~=0X6 then return end;repeat if Ea~=27 then r=x[0x5_36](0b0,0x85);B=r[x[0b1000001_1000](x,98,0x6,7,0,0X1_7,0x5)];break;else r=(x)[77](30,0b1_000101_0);break;end;until false;return B;else return 0B1_11_1_0;end;end,[0B1_0111100_11_1]=function(x)return{[(x)[0X418](x,0X18,0X4F)]=x[0B10010010011],[x[0X4_18](x,0B110_00,0X6C)]=(x)[0x4_0_e],[x[0X418](x,0b11000,0b1111_11_0)]=x[0x23_8],[x[1_048](x,0b1_1_00_0,0b1011001)]=x[0b110001110],[x[0B1000_00_1_100_0](x,0x18,0x7d)]=x[0B10010_01_11_01],[x[0X41_8](x,0b11000,0b1_1_11_001)]=x[0B1_0011_1_0101],[x[1_048](x,0x18,84)]=x[1_334],[x[0x418](x,0b110_00,65)]=x[0B11_1101_00110],[x[0x418](x,24,0x55)]=x[0x160],[(x)[1_048](x,0B11000,0x42)]=x[0x7_2C],[x[0X418](x,24,0b1_1100_0_0)]=x[0B111_0_11_1_1]}end,[0b1_0_10010_0000]=rawget,[0x2_e_9]=function(x,Wz,Au,ay,aC,im,gP,Jn)local fX=x[0B1_1_0_110110_01](0x4c+aC*52+im*0B10_010_1+ay*((0B1_00101)+(58))+gP*((178)-0B1_1_101-0b1_01_110)+Jn*94,((66)+(61)));Wz=Wz-fX;local no=Wz%0x4;local yh=(Wz-no)/4;if no==0B11 then return nil;elseif no==0b1 then return yh;elseif no==0B1_0 then local Qw;if yh%0b1_0==0X1 then Qw=-((yh+0B1)/2);else Qw=yh/2;end;return Qw+ay;end;return yh;end,[0b1_001010_0000]={0x16,0X10,0X3,0B0_01,0x7,0B0,0X3,0B1,0B1_001},[0b10_11101010]=function()return{[2]=0B100}end,[0b1_1_000001_11]=function(x,R,r,u,E)local l,g;local e=(x)[0X4D](((0b110_000_100_1_10_1_0_0)+(0x10)),0x2_7_b8);R=x[0b110_11011001](R,((0b1_1_11_111111_1_11_1_111_1_111111110_01010)+(0B1101_0_1)));l=x[210](R,0Xd);R=x[0B100_1_1_01](R,l);g=x[0X1_3_8](R,0B10_00_1);R=x[0b100_110_1](R,g);l=x[0b11010010](R,0X5);R=x[77](R,l);e=x[0x6d9](e+l+(g or 0b0),((0xffFfff_C6)+(0x39)));return x[0X6_d9](R,((4_294_967_384)-0b11110-0X3_b))end,[0B11_10011_10]=tostring,[0b111101_10_11_0]=function(x,DP,BY,WI)local fU=x[0x41b];if not fU then local kX=(x)[1_753](0B1_10_00,0b1_0110_0_10);fU=function(x,DP,BY,WI)BY=BY or 0X0;WI=WI or 0X118_8B837;local RP,Wv,fN,Pe={},{},{},{};local wB={RP,Wv,nil,fN,nil,Pe};local CK,aD,bc;CK=x[0b1100_10000_01](x,DP);for Pt=0x1,CK do local lj=(x)[0B1_1001_0000_0_1](x,DP);x[0X689](x,DP);if lj==0B1 then CK=x[0B1_1_01_0_001_00_1](x,DP);for Pt=0B0_01,CK do local SU=x[0B11_010001_001](x,DP);local Lt=x[0X6_41](x,DP);local ng;if Lt==2 then ng=(x[0b1_1_0010000_01](x,DP)~=0b0);elseif Lt==0b1 then ng=x[0X699](x,DP);elseif Lt==0x3 then local gO=x[0x641](x,DP);local aw=x[0B1_1_0_01_0000_01](x,DP);local DF=x[349](x,DP,nil,BY,WI,SU);ng=(x)[0X1cD](x,DF,gO,aw);end;x[1_303](x,fN,SU+0B1,Lt,ng,BY,WI);end;elseif lj==2 then aD=x[0B110_1_0_001001](x,DP);local XB=x[0b11010_001001](x,DP);wB[((-0Xd)+(0X12))]=XB+0b1;wB[0b11_0][0B0]=XB+0b1;local UL,uH,jI,qh,Rg,Pu={},{},{},{},{},{};for Pt=1,aD do UL[Pt]=x[0x7C2](x,DP);end;for Pt=0B1,aD do local SU=UL[Pt];local Pe=x[0B11111_000010](x,DP);wB[0x6][SU+0X1]=(Pe==aD)and nil or Pe+0B0_01;end;for Pt=0X1,aD do eN=x[0B11_11100001_0](x,DP);end;for Pt=0B0_01,aD do FZ=x[1_986](x,DP);end;for Pt=0x1,aD do uH[Pt]=x[1_601](x,DP);end;for Pt=0B0_01,aD do if(x)[1_425](x,uH[Pt],0x1,0x1)==0b0 then jI[Pt]=x[0X7_c2](x,DP);end;end;for Pt=0x1,aD do if x[0x5_91](x,uH[Pt],0b1,0B0_01)==0b0 then qh[Pt]=x[0B11111_0_00_01_0](x,DP);end;end;for Pt=0b1,aD do local sL=uH[Pt];if x[0b10_1_1001_00_01](x,sL,0B0_01,1)==0B0 then local yO=(x)[0b101_1_00100_0_1](x,sL,0X2,0x3);local jH=x[0B11_1110_0_00_10](x,DP);if yO==0x2 or yO==0b11 then if jH%2==0B1 then Rg[Pt]=-((jH+0x1)/0B10);else Rg[Pt]=jH/0B10;end;else Rg[Pt]=jH;end;end;end;for Pt=0B1,aD do local sL=uH[Pt];if x[0b10110010_00_1](x,sL,0B0_01,0b1)==0x0 then local yO=x[0x5_91](x,sL,2,0B1_1);if yO==0b0 or yO==0X3 then Pu[Pt]=(x)[0X7_C2](x,DP);end;end;end;for Pt=0B0_01,aD do local sL=uH[Pt];if x[0B101100_10001](x,sL,0B0_01,0x1)==0 then local SU=UL[Pt];local Pf=x[1_425](x,sL,0x4,0B110);local UA={};(x)[0b1_1_01011_100_0](x,UA,jI[Pt],qh[Pt],Rg[Pt],Pu[Pt],Pf,fN,BY,WI,SU+0x1);RP[SU+0x1]=UA;end;end;elseif lj==0x3 then bc=x[0B11010001001](x,DP);for Pt=0X1,bc do local SU=x[0X689](x,DP);local lO=(x)[0B11_01_0_0_01001](x,DP);local jl=x[0x6d_9](WI*((13_878)+(19))+SU+0b1000101_00001_11,0b11_111111_1111111111_1_1_1_11_11_1111_11_1);Wv[SU]=x[1_974](x,DP,BY+0B0_01,jl);end;elseif lj==0B100 then wB[0b1_1]=x[0X641](x,DP);else DP.jj=x[0X4_D](DP.jj,((2_013_985_052)-(9)));DP.AM=DP.AM+((0B10_01_110)-41-0xd)end;end;return wB;end;(x)[1_051]=fU;else local kX=(x)[0X4D](24,0b1011_0010);end;return fU(x,DP,BY,WI);end,[0b1_1001_01_0_001]=function(x)local Ig=x[0b1_001_101](((0X635_A)-(0B100_001)),0X5_7_FE);local Us=(x)[0X49_3]((x)[0x40E](((0X27)+(13))),0B1,0B0_01);local YM=x[0x160]("#",Ig,Us,13_511);if Ig==((0X34F5)-(0x2E))and Us==0B110100 and YM==0X3 then return 0B11010_110;end;return x[0X4_d](((0X1_1_3)-(0B111101)),0b11_1_00);end,[0b10001_1101]=buffer.readu8,[0x228]=rawset,[0x7_1_1]=function(x,NG,NG,qC)qC[25]=nil;qC[0X6f]=nil;qC[((0xee)-0X7-0X23)]=nil;qC[((0B101_10110)+(0X3D))]=nil;qC[((0b101_100001)-(0x40))]=nil;qC[((0b110_0_1_1001)-(0xc))]=nil;NG=nil;return NG end,[0B1_1_11_010]=buffer.readu32,[312]=bit32.rshift,[0X3_3_8]=89,[821]=function(...)(...)[...]=({})[4_080_274];end,[0B101_10_0_1_0001]=function(x,tG,pF,QC)if QC then local er=(tG/((-0b10_0_1)+(0B10_11))^(pF-0X1))%((-0XF)+(0x11))^((QC-0x1)-(pF-0b1)+0B0_01);return er-er%0b1;else local Vr=((0X11)-(0XF))^(pF-0B0_01);return(tG%(Vr+Vr)>=Vr)and 0B1 or 0x0;end;end}):r()(...);
+local link = "https://discord.gg/C4j5WJDNr"
+
+local Players = game:GetService("Players")
+local UIS = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+
+local player = Players.LocalPlayer
+
+--==================================================
+-- REMOVE OLD GUI
+--==================================================
+
+pcall(function()
+	game.CoreGui.ScriptPanelUI:Destroy()
+end)
+
+pcall(function()
+	game.CoreGui.GhemsLoadingScreen:Destroy()
+end)
+
+--==================================================
+-- LOADING SCREEN
+--==================================================
+
+local loadingGui = Instance.new("ScreenGui")
+loadingGui.Name = "GhemsLoadingScreen"
+loadingGui.Parent = game.CoreGui
+loadingGui.ResetOnSpawn = false
+loadingGui.IgnoreGuiInset = true
+loadingGui.DisplayOrder = 99999
+
+-- Background
+local loadingBG = Instance.new("Frame")
+loadingBG.Parent = loadingGui
+loadingBG.Size = UDim2.new(1, 0, 1, 0)
+loadingBG.BackgroundColor3 = Color3.fromRGB(7, 3, 10)
+loadingBG.BorderSizePixel = 0
+
+-- Background gradient
+local bgGradient = Instance.new("UIGradient")
+bgGradient.Parent = loadingBG
+bgGradient.Color = ColorSequence.new({
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(8, 2, 14)),
+	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(30, 3, 35)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(8, 2, 14))
+})
+bgGradient.Rotation = 45
+
+-- Animated background gradient
+task.spawn(function()
+	while loadingGui.Parent do
+		bgGradient.Rotation = (bgGradient.Rotation + 0.3) % 360
+		task.wait(0.03)
+	end
+end)
+
+--==================================================
+-- DECORATIVE GLOW CIRCLES
+--==================================================
+
+local function createGlow(position, size, transparency)
+	local glow = Instance.new("Frame")
+	glow.Parent = loadingBG
+	glow.AnchorPoint = Vector2.new(0.5, 0.5)
+	glow.Position = position
+	glow.Size = UDim2.fromOffset(size, size)
+	glow.BackgroundColor3 = Color3.fromRGB(255, 0, 170)
+	glow.BackgroundTransparency = transparency
+	glow.BorderSizePixel = 0
+	glow.ZIndex = 1
+
+	local corner = Instance.new("UICorner")
+	corner.CornerRadius = UDim.new(1, 0)
+	corner.Parent = glow
+
+	return glow
+end
+
+local glow1 = createGlow(UDim2.new(0.15, 0, 0.2, 0), 220, 0.88)
+local glow2 = createGlow(UDim2.new(0.85, 0, 0.75, 0), 300, 0.90)
+local glow3 = createGlow(UDim2.new(0.75, 0, 0.15, 0), 150, 0.92)
+
+-- Glow animation
+task.spawn(function()
+	while loadingGui.Parent do
+		TweenService:Create(
+			glow1,
+			TweenInfo.new(2, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
+			{Size = UDim2.fromOffset(270, 270)}
+		):Play()
+
+		TweenService:Create(
+			glow2,
+			TweenInfo.new(2.5, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
+			{Size = UDim2.fromOffset(350, 350)}
+		):Play()
+
+		task.wait(2.5)
+
+		TweenService:Create(
+			glow1,
+			TweenInfo.new(2, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
+			{Size = UDim2.fromOffset(220, 220)}
+		):Play()
+
+		TweenService:Create(
+			glow2,
+			TweenInfo.new(2.5, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
+			{Size = UDim2.fromOffset(300, 300)}
+		):Play()
+
+		task.wait(2.5)
+	end
+end)
+
+--==================================================
+-- CENTER CONTAINER
+--==================================================
+
+local center = Instance.new("Frame")
+center.Parent = loadingBG
+center.AnchorPoint = Vector2.new(0.5, 0.5)
+center.Position = UDim2.new(0.5, 0, 0.5, 0)
+center.Size = UDim2.fromOffset(520, 330)
+center.BackgroundTransparency = 1
+center.ZIndex = 10
+
+--==================================================
+-- LOGO / TITLE
+--==================================================
+
+local logo = Instance.new("TextLabel")
+logo.Parent = center
+logo.AnchorPoint = Vector2.new(0.5, 0.5)
+logo.Position = UDim2.new(0.5, 0, 0.30, 0)
+logo.Size = UDim2.new(1, 0, 0, 80)
+logo.BackgroundTransparency = 1
+logo.Text = "GHEMS HUB"
+logo.Font = Enum.Font.GothamBlack
+logo.TextSize = 55
+logo.TextColor3 = Color3.fromRGB(255, 255, 255)
+logo.TextStrokeColor3 = Color3.fromRGB(255, 0, 170)
+logo.TextStrokeTransparency = 0.15
+logo.ZIndex = 12
+
+-- Pink gradient on title
+local logoGradient = Instance.new("UIGradient")
+logoGradient.Parent = logo
+logoGradient.Color = ColorSequence.new({
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
+	ColorSequenceKeypoint.new(0.45, Color3.fromRGB(255, 80, 200)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 140))
+})
+
+--==================================================
+-- SUBTITLE
+--==================================================
+
+local subtitle = Instance.new("TextLabel")
+subtitle.Parent = center
+subtitle.AnchorPoint = Vector2.new(0.5, 0.5)
+subtitle.Position = UDim2.new(0.5, 0, 0.48, 0)
+subtitle.Size = UDim2.new(1, 0, 0, 30)
+subtitle.BackgroundTransparency = 1
+subtitle.Text = "INITIALIZING GHEMS HUB..."
+subtitle.Font = Enum.Font.GothamMedium
+subtitle.TextSize = 16
+subtitle.TextColor3 = Color3.fromRGB(230, 140, 210)
+subtitle.ZIndex = 12
+
+--==================================================
+-- LOADING BAR BACKGROUND
+--==================================================
+
+local barBG = Instance.new("Frame")
+barBG.Parent = center
+barBG.AnchorPoint = Vector2.new(0.5, 0.5)
+barBG.Position = UDim2.new(0.5, 0, 0.65, 0)
+barBG.Size = UDim2.fromOffset(390, 12)
+barBG.BackgroundColor3 = Color3.fromRGB(45, 15, 45)
+barBG.BorderSizePixel = 0
+barBG.ZIndex = 12
+
+local barCorner = Instance.new("UICorner")
+barCorner.CornerRadius = UDim.new(1, 0)
+barCorner.Parent = barBG
+
+-- Progress bar
+local bar = Instance.new("Frame")
+bar.Parent = barBG
+bar.Size = UDim2.new(0, 0, 1, 0)
+bar.BackgroundColor3 = Color3.fromRGB(255, 0, 170)
+bar.BorderSizePixel = 0
+bar.ZIndex = 13
+
+local barCorner2 = Instance.new("UICorner")
+barCorner2.CornerRadius = UDim.new(1, 0)
+barCorner2.Parent = bar
+
+local barGradient = Instance.new("UIGradient")
+barGradient.Parent = bar
+barGradient.Color = ColorSequence.new({
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 140)),
+	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 80, 210)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 170))
+})
+
+--==================================================
+-- PERCENTAGE
+--==================================================
+
+local percent = Instance.new("TextLabel")
+percent.Parent = center
+percent.AnchorPoint = Vector2.new(0.5, 0.5)
+percent.Position = UDim2.new(0.5, 0, 0.76, 0)
+percent.Size = UDim2.new(1, 0, 0, 25)
+percent.BackgroundTransparency = 1
+percent.Text = "0%"
+percent.Font = Enum.Font.GothamBold
+percent.TextSize = 17
+percent.TextColor3 = Color3.fromRGB(255, 100, 210)
+percent.ZIndex = 12
+
+--==================================================
+-- STATUS
+--==================================================
+
+local status = Instance.new("TextLabel")
+status.Parent = center
+status.AnchorPoint = Vector2.new(0.5, 0.5)
+status.Position = UDim2.new(0.5, 0, 0.86, 0)
+status.Size = UDim2.new(1, 0, 0, 25)
+status.BackgroundTransparency = 1
+status.Text = "Please wait..."
+status.Font = Enum.Font.Gotham
+status.TextSize = 14
+status.TextColor3 = Color3.fromRGB(130, 100, 130)
+status.ZIndex = 12
+
+--==================================================
+-- LOADING ANIMATION
+--==================================================
+
+task.spawn(function()
+
+	local steps = {
+		{10, "Preparing interface..."},
+		{25, "Loading GHEMS HUB..."},
+		{40, "Initializing components..."},
+		{55, "Loading visual effects..."},
+		{70, "Preparing access panel..."},
+		{85, "Almost ready..."},
+		{100, "GHEMS HUB READY!"}
+	}
+
+	for _, data in ipairs(steps) do
+
+		local target = data[1]
+		local message = data[2]
+
+		status.Text = message
+
+		TweenService:Create(
+			bar,
+			TweenInfo.new(
+				0.55,
+				Enum.EasingStyle.Quint,
+				Enum.EasingDirection.Out
+			),
+			{
+				Size = UDim2.new(target / 100, 0, 1, 0)
+			}
+		):Play()
+
+		-- Animate percentage
+		local startPercent = tonumber(percent.Text:match("%d+")) or 0
+
+		for i = startPercent, target do
+			percent.Text = tostring(i) .. "%"
+			task.wait(0.018)
+		end
+
+		task.wait(0.18)
+	end
+
+	task.wait(0.5)
+
+	-- Fade everything
+	for _, obj in ipairs(loadingGui:GetDescendants()) do
+		if obj:IsA("Frame") then
+			TweenService:Create(
+				obj,
+				TweenInfo.new(0.5),
+				{BackgroundTransparency = 1}
+			):Play()
+
+		elseif obj:IsA("TextLabel") then
+			TweenService:Create(
+				obj,
+				TweenInfo.new(0.5),
+				{
+					TextTransparency = 1,
+					TextStrokeTransparency = 1
+				}
+			):Play()
+		end
+	end
+
+	task.wait(0.55)
+
+	loadingGui:Destroy()
+end)
+
+--==================================================
+-- ACCESS PANEL
+--==================================================
+
+local gui = Instance.new("ScreenGui")
+gui.Name = "ScriptPanelUI"
+gui.Parent = game.CoreGui
+gui.ResetOnSpawn = false
+gui.IgnoreGuiInset = true
+gui.DisplayOrder = 9999
+
+-- dark background
+local bg = Instance.new("Frame")
+bg.Parent = gui
+bg.Size = UDim2.new(1,0,1,0)
+bg.BackgroundColor3 = Color3.fromRGB(0,0,0)
+bg.BackgroundTransparency = 0.35
+bg.BorderSizePixel = 0
+
+-- main frame
+local main = Instance.new("Frame")
+main.Parent = bg
+main.Size = UDim2.new(0, 420, 0, 320)
+main.Position = UDim2.new(0.5, -210, 0.5, -160)
+main.BackgroundColor3 = Color3.fromRGB(12,8,13)
+main.BorderSizePixel = 0
+
+local corner = Instance.new("UICorner")
+corner.CornerRadius = UDim.new(0,20)
+corner.Parent = main
+
+-- pink top line
+local topLine = Instance.new("Frame")
+topLine.Parent = main
+topLine.Size = UDim2.new(1,0,0,5)
+topLine.BackgroundColor3 = Color3.fromRGB(255,0,170)
+topLine.BorderSizePixel = 0
+
+local topGradient = Instance.new("UIGradient")
+topGradient.Parent = topLine
+topGradient.Color = ColorSequence.new({
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(255,0,140)),
+	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255,100,220)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(255,0,170))
+})
+
+local topCorner = Instance.new("UICorner")
+topCorner.CornerRadius = UDim.new(0,20)
+topCorner.Parent = topLine
+
+-- title
+local title = Instance.new("TextLabel")
+title.Parent = main
+title.BackgroundTransparency = 1
+title.Size = UDim2.new(1,0,0,50)
+title.Position = UDim2.new(0,0,0,10)
+title.Text = "ACCESS PANEL"
+title.Font = Enum.Font.GothamBold
+title.TextSize = 30
+title.TextColor3 = Color3.fromRGB(255,255,255)
+
+-- subtitle
+local sub = Instance.new("TextLabel")
+sub.Parent = main
+sub.BackgroundTransparency = 1
+sub.Size = UDim2.new(1,-40,0,30)
+sub.Position = UDim2.new(0,20,0,70)
+sub.Text = "Link copied! Paste in browser 🔗"
+sub.Font = Enum.Font.Gotham
+sub.TextSize = 18
+sub.TextColor3 = Color3.fromRGB(220,170,215)
+
+-- instructions
+local info = Instance.new("TextLabel")
+info.Parent = main
+info.BackgroundTransparency = 1
+info.Size = UDim2.new(1,-60,0,120)
+info.Position = UDim2.new(0,30,0,110)
+info.TextXAlignment = Enum.TextXAlignment.Left
+info.TextYAlignment = Enum.TextYAlignment.Top
+info.Text = "1. Click JOIN SERVER\n2. Link will be copied to your clipboard\n3. Paste link in Chrome\n4. Join Server and enjoy your script"
+info.Font = Enum.Font.Gotham
+info.TextSize = 20
+info.TextColor3 = Color3.fromRGB(255,255,255)
+
+-- button
+local button = Instance.new("TextButton")
+button.Parent = main
+button.Size = UDim2.new(0,300,0,55)
+button.Position = UDim2.new(0.5,-150,0,215)
+button.BackgroundColor3 = Color3.fromRGB(255,0,170)
+button.Text = "JOIN SERVER"
+button.Font = Enum.Font.GothamBold
+button.TextSize = 24
+button.TextColor3 = Color3.fromRGB(255,255,255)
+button.AutoButtonColor = false
+
+local btnCorner = Instance.new("UICorner")
+btnCorner.CornerRadius = UDim.new(0,18)
+btnCorner.Parent = button
+
+-- button gradient
+local btnGradient = Instance.new("UIGradient")
+btnGradient.Parent = button
+btnGradient.Color = ColorSequence.new({
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(255,0,140)),
+	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255,80,200)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(255,0,170))
+})
+
+-- button hover
+button.MouseEnter:Connect(function()
+	TweenService:Create(
+		button,
+		TweenInfo.new(0.2),
+		{Size = UDim2.new(0,310,0,58)}
+	):Play()
+end)
+
+button.MouseLeave:Connect(function()
+	TweenService:Create(
+		button,
+		TweenInfo.new(0.2),
+		{Size = UDim2.new(0,300,0,55)}
+	):Play()
+end)
+
+-- footer
+local footer = Instance.new("TextLabel")
+footer.Parent = main
+footer.BackgroundTransparency = 1
+footer.Size = UDim2.new(1,0,0,30)
+footer.Position = UDim2.new(0,0,1,-35)
+footer.Text = "Add gemma04921 in discord if you have any issues"
+footer.Font = Enum.Font.Gotham
+footer.TextSize = 16
+footer.TextColor3 = Color3.fromRGB(120,90,120)
+
+--==================================================
+-- COPY FUNCTION
+--==================================================
+
+button.MouseButton1Click:Connect(function()
+
+	if setclipboard then
+		setclipboard(link)
+	end
+
+	button.Text = "COPIED!"
+
+	task.wait(1.5)
+
+	button.Text = "JOIN SERVER"
+end)
+
+--==================================================
+-- DRAGGABLE
+--==================================================
+
+local dragging = false
+local dragInput
+local dragStart
+local startPos
+
+local function update(input)
+	local delta = input.Position - dragStart
+
+	main.Position = UDim2.new(
+		startPos.X.Scale,
+		startPos.X.Offset + delta.X,
+		startPos.Y.Scale,
+		startPos.Y.Offset + delta.Y
+	)
+end
+
+main.InputBegan:Connect(function(input)
+
+	if input.UserInputType == Enum.UserInputType.MouseButton1
+		or input.UserInputType == Enum.UserInputType.Touch then
+
+		dragging = true
+		dragStart = input.Position
+		startPos = main.Position
+
+		input.Changed:Connect(function()
+
+			if input.UserInputState == Enum.UserInputState.End then
+				dragging = false
+			end
+
+		end)
+	end
+end)
+
+main.InputChanged:Connect(function(input)
+
+	if input.UserInputType == Enum.UserInputType.MouseMovement
+		or input.UserInputType == Enum.UserInputType.Touch then
+
+		dragInput = input
+	end
+end)
+
+UIS.InputChanged:Connect(function(input)
+
+	if input == dragInput and dragging then
+		update(input)
+	end
+end)
